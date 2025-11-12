@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: S3RelayServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Sword3RelaySys.res" /d "_DEBUG" "D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\Sword3RelaySys.rc"" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP7E35.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/S3RelayServer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\GlobalFun.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\KThread.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\LogFile.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\main.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\S3P_MSSQLServer_Result.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\S3PAccount.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\S3PDB_MSSQLServer_Connection.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBConnectionPool.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBConVBC.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\S3PDBSocketPool.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\S3PResultVBC.cpp"
+]
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSP7E35.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP7E36.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/S3RelayServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3RELAYSERVER\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSP7E36.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP7E37.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/S3RelayServer.pdb" /map:"Debug/S3RelayServer.map" /debug /machine:I386 /out:"Debug/S3RelayServer.exe" /pdbtype:sept 
+".\Debug\GlobalFun.obj"
+".\Debug\KThread.obj"
+".\Debug\LogFile.obj"
+".\Debug\main.obj"
+".\Debug\S3P_MSSQLServer_Result.obj"
+".\Debug\S3PAccount.obj"
+".\Debug\S3PDB_MSSQLServer_Connection.obj"
+".\Debug\S3PDBConnectionPool.obj"
+".\Debug\S3PDBConVBC.obj"
+".\Debug\S3PDBSocketPool.obj"
+".\Debug\S3PResultVBC.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Sword3RelaySys.res"
+]
+Creating command line "link.exe @C:\Users\PC\AppData\Local\Temp\RSP7E37.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GlobalFun.cpp
+d:\gamebuild\srcbuildtest\swordonline -volamtinhduyen\sources\sword3paysys\s3relayserver\globalfun.cpp(475) : warning C4018: '<=' : signed/unsigned mismatch
+KThread.cpp
+LogFile.cpp
+main.cpp
+S3P_MSSQLServer_Result.cpp
+d:\gamebuild\srcbuildtest\swordonline -volamtinhduyen\sources\sword3paysys\s3relayserver\s3p_mssqlserver_result.cpp(96) : warning C4018: '<' : signed/unsigned mismatch
+S3PAccount.cpp
+S3PDB_MSSQLServer_Connection.cpp
+S3PDBConnectionPool.cpp
+S3PDBConVBC.cpp
+S3PDBSocketPool.cpp
+S3PResultVBC.cpp
+Linking...
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP8BB5.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\multiserver\
+copy debug\S3RelayServer.exe ..\..\..\..\bin\multiserver\S3RelayServer.exe
+copy debug\S3RelayServer.pdb ..\..\..\..\bin\multiserver\S3RelayServer.pdb
+md ..\..\..\..\bin\multiserver\debug\
+copy debug\S3RelayServer.exe ..\..\..\..\bin\multiserver\debug\S3RelayServer.exe
+copy debug\S3RelayServer.pdb ..\..\..\..\bin\multiserver\debug\S3RelayServer.pdb
+]
+Creating command line "C:\Users\PC\AppData\Local\Temp\RSP8BB5.bat"
+
+A subdirectory or file ..\..\..\..\bin\multiserver\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+S3RelayServer.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

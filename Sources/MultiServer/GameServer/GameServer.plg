@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GameServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMIN\AppData\Local\Temp\RSP4E9E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\Common\\" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\roledbserver" /I "..\..\..\lib\\" /I "..\..\..\Headers\\" /I "..\..\..\Sources\Engine\src" /I "..\..\..\Sources\Engine\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D _WIN32_WINNT=0x0400 /FR"Release/" /Fp"Release/GameServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\TinhDuyen\SwordOnline\SwordOnline\Sources\MultiServer\GameServer\GameServer.cpp"
+"D:\TinhDuyen\SwordOnline\SwordOnline\Sources\MultiServer\GameServer\KSOServer.cpp"
+"D:\TinhDuyen\SwordOnline\SwordOnline\Sources\MultiServer\GameServer\KTransferUnit.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMIN\AppData\Local\Temp\RSP4E9E.tmp" 
+Creating temporary file "C:\Users\ADMIN\AppData\Local\Temp\RSP4E9F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\Common\\" /I "..\Rainbow\Interface" /I "..\Heaven\Interface" /I "..\..\roledbserver" /I "..\..\..\lib\\" /I "..\..\..\Headers\\" /I "..\..\..\Sources\Engine\src" /I "..\..\..\Sources\Engine\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D _WIN32_WINNT=0x0400 /FR"Release/" /Fp"Release/GameServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\TinhDuyen\SwordOnline\SwordOnline\Sources\MultiServer\GameServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMIN\AppData\Local\Temp\RSP4E9F.tmp" 
+Creating temporary file "C:\Users\ADMIN\AppData\Local\Temp\RSP4EA0.tmp" with contents
+[
+Common.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/GameServer.pdb" /map:"Release/GameServer.map" /debug /machine:I386 /out:"Release/GameServer.exe" 
+.\Release\GameServer.obj
+.\Release\KSOServer.obj
+.\Release\KTransferUnit.obj
+.\Release\StdAfx.obj
+..\..\..\Lib\release\engine.lib
+..\..\..\Lib\release\CoreServer.lib
+..\..\..\Lib\release\common.lib
+]
+Creating command line "link.exe @C:\Users\ADMIN\AppData\Local\Temp\RSP4EA0.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+GameServer.cpp
+KSOServer.cpp
+KTransferUnit.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ADMIN\AppData\Local\Temp\RSP5BE0.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\server\
+copy release\GameServer.exe ..\..\..\..\bin\Server\GameServer.exe
+copy release\GameServer.pdb ..\..\..\..\bin\Server\GameServer.pdb
+copy release\GameServer.map ..\..\..\..\bin\Server\GameServer.map
+md ..\..\..\..\bin\server\release\
+copy release\GameServer.exe ..\..\..\..\bin\Server\release\GameServer.exe
+copy release\GameServer.pdb ..\..\..\..\bin\Server\release\GameServer.pdb
+copy release\GameServer.map ..\..\..\..\bin\Server\release\GameServer.map
+]
+Creating command line "C:\Users\ADMIN\AppData\Local\Temp\RSP5BE0.bat"
+
+A subdirectory or file ..\..\..\..\bin\server\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\..\bin\server\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+GameServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

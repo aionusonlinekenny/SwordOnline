@@ -1,0 +1,528 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Engine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPBAF6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /D "USE_STANDALONE_SPR" /D WINVER=0x0500 /FR"Debug/" /Fp"Debug/Engine.pch" /Yu"KWin32.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KAutoMutex.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KAviFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KBitmap.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KBitmap16.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KBitmapConvert.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KBmp2Spr.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KBmpFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KBmpFile24.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KCache.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KCanvas.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KCodec.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KCodecLzo.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KColors.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDDraw.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDebug.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDError.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDInput.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDrawBase.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDrawBitmap.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDrawBitmap16.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDrawFade.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDrawFont.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDrawSprite.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDrawSpriteAlpha.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KDSound.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KEicScript.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KEicScriptSet.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KEngine.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KEvent.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KFileCopy.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KFileDialog.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KFilePath.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KFindBinTree.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KFont.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KGifFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KGraphics.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KHashList.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KHashNode.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KHashTable.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\Kime.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KIniFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KJpgFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KKeyboard.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KLinkArray.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KList.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KLuaScript.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KLuaScriptSet.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KLubCmpl_Blocker.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMemBase.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMemClass.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMemClass1.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMemManager.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMemStack.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMessage.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMouse.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMp3Music.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMp4Audio.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMp4Movie.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMp4Video.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMpgMusic.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMsgNode.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMusic.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KMutex.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KNode.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KOctree.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KOctreeNode.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KPakData.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KPakFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KPakList.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KPakTool.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KPalette.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KPcxFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KPolygon.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KPolyRelation.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KRandom.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSafeList.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KScanDir.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KScript.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KScriptCache.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KScriptList.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KScriptSet.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSG_MD5_String.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSG_StringProcess.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSortBinTree.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSortList.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSoundCache.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSprite.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSpriteCache.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSpriteCodec.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KSpriteMaker.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KStepLuaScript.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KStrBase.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KStrList.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KStrNode.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KTabFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KTabFileCtrl.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KTgaFile32.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KThread.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KTimer.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KVideo.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KWavCodec.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KWavFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KWavMusic.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KWavSound.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KWin32.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KWin32App.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KWin32Wnd.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KZipCodec.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KZipData.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KZipFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\KZipList.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\md5.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\XPackFile.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\Cryptography\EDOneTimePad.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\Text.cpp"
+]
+Creating command line "cl.exe @C:\Users\trantam\AppData\Local\Temp\RSPBAF6.tmp" 
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPBAF7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /D "USE_STANDALONE_SPR" /D WINVER=0x0500 /FR"Debug/" /Fp"Debug/Engine.pch" /Yc"kwin32.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\trantam\AppData\Local\Temp\RSPBAF7.tmp" 
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPBAF8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /D "USE_STANDALONE_SPR" /D WINVER=0x0500 /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\alloc.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\io.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2b_99.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2b_d.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2b_ds.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2b_to.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2d_99.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2d_d.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2d_ds.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2d_to.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2e_99.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2e_d.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2e_ds.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\n2e_to.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\ucl_crc.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\ucl_dll.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\ucl_init.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\ucl_ptr.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\ucl_str.c"
+"D:\TinhDuyen\SwordOnline\Sources\Engine\Src\ucl\ucl_util.c"
+]
+Creating command line "cl.exe @C:\Users\trantam\AppData\Local\Temp\RSPBAF8.tmp" 
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPBAF9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib ddraw.lib dsound.lib dxguid.lib winmm.lib wsock32.lib dinput8.lib /nologo /dll /incremental:no /pdb:"Debug/Engine.pdb" /map:"Debug/Engine.map" /debug /machine:I386 /out:"Debug/Engine.dll" /implib:"Debug/Engine.lib" /pdbtype:sept 
+.\Debug\KAutoMutex.obj
+.\Debug\KAviFile.obj
+.\Debug\KBitmap.obj
+.\Debug\KBitmap16.obj
+.\Debug\KBitmapConvert.obj
+.\Debug\KBmp2Spr.obj
+.\Debug\KBmpFile.obj
+.\Debug\KBmpFile24.obj
+.\Debug\KCache.obj
+.\Debug\KCanvas.obj
+.\Debug\KCodec.obj
+.\Debug\KCodecLzo.obj
+.\Debug\KColors.obj
+.\Debug\KDDraw.obj
+.\Debug\KDebug.obj
+.\Debug\KDError.obj
+.\Debug\KDInput.obj
+.\Debug\KDrawBase.obj
+.\Debug\KDrawBitmap.obj
+.\Debug\KDrawBitmap16.obj
+.\Debug\KDrawFade.obj
+.\Debug\KDrawFont.obj
+.\Debug\KDrawSprite.obj
+.\Debug\KDrawSpriteAlpha.obj
+.\Debug\KDSound.obj
+.\Debug\KEicScript.obj
+.\Debug\KEicScriptSet.obj
+.\Debug\KEngine.obj
+.\Debug\KEvent.obj
+.\Debug\KFile.obj
+.\Debug\KFileCopy.obj
+.\Debug\KFileDialog.obj
+.\Debug\KFilePath.obj
+.\Debug\KFindBinTree.obj
+.\Debug\KFont.obj
+.\Debug\KGifFile.obj
+.\Debug\KGraphics.obj
+.\Debug\KHashList.obj
+.\Debug\KHashNode.obj
+.\Debug\KHashTable.obj
+.\Debug\Kime.obj
+.\Debug\KIniFile.obj
+.\Debug\KJpgFile.obj
+.\Debug\KKeyboard.obj
+.\Debug\KLinkArray.obj
+.\Debug\KList.obj
+.\Debug\KLuaScript.obj
+.\Debug\KLuaScriptSet.obj
+.\Debug\KLubCmpl_Blocker.obj
+.\Debug\KMemBase.obj
+.\Debug\KMemClass.obj
+.\Debug\KMemClass1.obj
+.\Debug\KMemManager.obj
+.\Debug\KMemStack.obj
+.\Debug\KMessage.obj
+.\Debug\KMouse.obj
+.\Debug\KMp3Music.obj
+.\Debug\KMp4Audio.obj
+.\Debug\KMp4Movie.obj
+.\Debug\KMp4Video.obj
+.\Debug\KMpgMusic.obj
+.\Debug\KMsgNode.obj
+.\Debug\KMusic.obj
+.\Debug\KMutex.obj
+.\Debug\KNode.obj
+.\Debug\KOctree.obj
+.\Debug\KOctreeNode.obj
+.\Debug\KPakData.obj
+.\Debug\KPakFile.obj
+.\Debug\KPakList.obj
+.\Debug\KPakTool.obj
+.\Debug\KPalette.obj
+.\Debug\KPcxFile.obj
+.\Debug\KPolygon.obj
+.\Debug\KPolyRelation.obj
+.\Debug\KRandom.obj
+.\Debug\KSafeList.obj
+.\Debug\KScanDir.obj
+.\Debug\KScript.obj
+.\Debug\KScriptCache.obj
+.\Debug\KScriptList.obj
+.\Debug\KScriptSet.obj
+.\Debug\KSG_MD5_String.obj
+.\Debug\KSG_StringProcess.obj
+.\Debug\KSortBinTree.obj
+.\Debug\KSortList.obj
+.\Debug\KSoundCache.obj
+.\Debug\KSprite.obj
+.\Debug\KSpriteCache.obj
+.\Debug\KSpriteCodec.obj
+.\Debug\KSpriteMaker.obj
+.\Debug\KStepLuaScript.obj
+.\Debug\KStrBase.obj
+.\Debug\KStrList.obj
+.\Debug\KStrNode.obj
+.\Debug\KTabFile.obj
+.\Debug\KTabFileCtrl.obj
+.\Debug\KTgaFile32.obj
+.\Debug\KThread.obj
+.\Debug\KTimer.obj
+.\Debug\KVideo.obj
+.\Debug\KWavCodec.obj
+.\Debug\KWavFile.obj
+.\Debug\KWavMusic.obj
+.\Debug\KWavSound.obj
+.\Debug\KWin32.obj
+.\Debug\KWin32App.obj
+.\Debug\KWin32Wnd.obj
+.\Debug\KZipCodec.obj
+.\Debug\KZipData.obj
+.\Debug\KZipFile.obj
+.\Debug\KZipList.obj
+.\Debug\md5.obj
+.\Debug\stdafx.obj
+.\Debug\XPackFile.obj
+.\Debug\EDOneTimePad.obj
+.\Debug\Text.obj
+.\Debug\alloc.obj
+.\Debug\io.obj
+.\Debug\n2b_99.obj
+.\Debug\n2b_d.obj
+.\Debug\n2b_ds.obj
+.\Debug\n2b_to.obj
+.\Debug\n2d_99.obj
+.\Debug\n2d_d.obj
+.\Debug\n2d_ds.obj
+.\Debug\n2d_to.obj
+.\Debug\n2e_99.obj
+.\Debug\n2e_d.obj
+.\Debug\n2e_ds.obj
+.\Debug\n2e_to.obj
+.\Debug\ucl_crc.obj
+.\Debug\ucl_dll.obj
+.\Debug\ucl_init.obj
+.\Debug\ucl_ptr.obj
+.\Debug\ucl_str.obj
+.\Debug\ucl_util.obj
+..\..\Lib\debug\JpgLib.lib
+..\..\Lib\debug\LuaLibDll.lib
+..\..\Lib\debug\mp3lib.lib
+]
+Creating command line "link.exe @C:\Users\trantam\AppData\Local\Temp\RSPBAF9.tmp"
+<h3>Output Window</h3>
+Compiling...
+stdafx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+KAutoMutex.cpp
+KAviFile.cpp
+KBitmap.cpp
+KBitmap16.cpp
+KBitmapConvert.cpp
+KBmp2Spr.cpp
+KBmpFile.cpp
+KBmpFile24.cpp
+KCache.cpp
+KCanvas.cpp
+KCodec.cpp
+KCodecLzo.cpp
+KColors.cpp
+KDDraw.cpp
+KDebug.cpp
+KDError.cpp
+KDInput.cpp
+KDrawBase.cpp
+KDrawBitmap.cpp
+KDrawBitmap16.cpp
+Generating Code...
+Compiling...
+KDrawFade.cpp
+KDrawFont.cpp
+KDrawSprite.cpp
+KDrawSpriteAlpha.cpp
+KDSound.cpp
+KEicScript.cpp
+KEicScriptSet.cpp
+KEngine.cpp
+KEvent.cpp
+KFile.cpp
+KFileCopy.cpp
+KFileDialog.cpp
+KFilePath.cpp
+KFindBinTree.cpp
+KFont.cpp
+KGifFile.cpp
+KGraphics.cpp
+KHashList.cpp
+KHashNode.cpp
+KHashTable.cpp
+Generating Code...
+Compiling...
+Kime.cpp
+KIniFile.cpp
+KJpgFile.cpp
+KIniFile 当前不支持 KeyName 为中文! by Romandou
+KKeyboard.cpp
+KLinkArray.cpp
+KList.cpp
+KLuaScript.cpp
+KLuaScriptSet.cpp
+KLubCmpl_Blocker.cpp
+KMemBase.cpp
+KMemClass.cpp
+KMemClass1.cpp
+KMemManager.cpp
+KMemStack.cpp
+KMessage.cpp
+KMouse.cpp
+KMp3Music.cpp
+KMp4Audio.cpp
+KMp4Movie.cpp
+KMp4Video.cpp
+Generating Code...
+Compiling...
+KMpgMusic.cpp
+KMsgNode.cpp
+KMusic.cpp
+KMutex.cpp
+KNode.cpp
+KOctree.cpp
+KOctreeNode.cpp
+KPakData.cpp
+KPakFile.cpp
+KPakList.cpp
+KPakTool.cpp
+KPalette.cpp
+KPcxFile.cpp
+KPolygon.cpp
+KPolyRelation.cpp
+KRandom.cpp
+KSafeList.cpp
+KScanDir.cpp
+KScript.cpp
+KScriptCache.cpp
+Generating Code...
+Compiling...
+KScriptList.cpp
+KScriptSet.cpp
+KSG_MD5_String.cpp
+KSG_StringProcess.cpp
+KSortBinTree.cpp
+KSortList.cpp
+KSoundCache.cpp
+KSprite.cpp
+KSpriteCache.cpp
+KSpriteCodec.cpp
+KSpriteMaker.cpp
+KStepLuaScript.cpp
+KStrBase.cpp
+KStrList.cpp
+KStrNode.cpp
+KTabFile.cpp
+KTabFileCtrl.cpp
+KTgaFile32.cpp
+KThread.cpp
+KTimer.cpp
+Generating Code...
+Compiling...
+KVideo.cpp
+KWavCodec.cpp
+KWavFile.cpp
+KWavMusic.cpp
+KWavSound.cpp
+KWin32.cpp
+KWin32App.cpp
+KWin32Wnd.cpp
+KZipCodec.cpp
+KZipData.cpp
+KZipFile.cpp
+KZipList.cpp
+md5.cpp
+XPackFile.cpp
+EDOneTimePad.cpp
+Text.cpp
+Generating Code...
+Compiling...
+alloc.c
+io.c
+n2b_99.c
+n2b_d.c
+n2b_ds.c
+n2b_to.c
+n2d_99.c
+n2d_d.c
+n2d_ds.c
+n2d_to.c
+n2e_99.c
+n2e_d.c
+n2e_ds.c
+n2e_to.c
+ucl_crc.c
+ucl_dll.c
+ucl_init.c
+ucl_ptr.c
+ucl_str.c
+ucl_util.c
+Generating Code...
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+   Creating library Debug/Engine.lib and object Debug/Engine.exp
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPC337.bat" with contents
+[
+@echo off
+md ..\..\lib\debug\
+copy debug\engine.lib ..\..\lib\debug\Engine.lib
+md ..\..\..\bin\client\
+copy debug\engine.dll ..\..\..\bin\client\Engine.dll
+copy debug\engine.pdb ..\..\..\bin\client\Engine.pdb
+md ..\..\..\bin\client\debug\
+copy debug\engine.dll ..\..\..\bin\client\debug\Engine.dll
+copy debug\engine.pdb ..\..\..\bin\client\debug\Engine.pdb
+md ..\..\..\bin\server\
+copy debug\engine.dll ..\..\..\bin\server\Engine.dll
+copy debug\engine.pdb ..\..\..\bin\server\Engine.pdb
+md ..\..\..\bin\server\debug\
+copy debug\engine.dll ..\..\..\bin\server\debug\Engine.dll
+copy debug\engine.pdb ..\..\..\bin\server\debug\Engine.pdb
+md ..\..\..\bin\multiserver\
+copy debug\engine.dll ..\..\..\bin\multiserver\Engine.dll
+copy debug\engine.pdb ..\..\..\bin\multiserver\Engine.pdb
+md ..\..\..\bin\multiserver\debug\
+copy debug\engine.dll ..\..\..\bin\multiserver\debug\Engine.dll
+copy debug\engine.pdb ..\..\..\bin\multiserver\debug\Engine.pdb
+]
+Creating command line "C:\Users\trantam\AppData\Local\Temp\RSPC337.bat"
+
+A subdirectory or file ..\..\lib\debug\ already exists.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\client\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Engine.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

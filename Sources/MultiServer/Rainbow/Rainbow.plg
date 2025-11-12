@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rainbow - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP4467.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\Common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RAINBOW_EXPORTS" /Fp"Release/Rainbow.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\TinhDuyen\SwordOnline\Sources\MultiServer\Rainbow\IClient.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\MultiServer\Rainbow\Rainbow.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\MultiServer\Rainbow\ClientStage.cpp"
+]
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSP4467.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP4468.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Rainbow.pdb" /map:"Release/Rainbow.map" /debug /machine:I386 /def:".\Rainbow.def" /out:"Release/Rainbow.dll" /implib:"Release/Rainbow.lib" 
+.\Release\IClient.obj
+.\Release\Rainbow.obj
+.\Release\ClientStage.obj
+..\..\..\Lib\release\common.lib
+]
+Creating command line "link.exe @C:\Users\PC\AppData\Local\Temp\RSP4468.tmp"
+<h3>Output Window</h3>
+Compiling...
+IClient.cpp
+Rainbow.cpp
+* ATTENTION : PLEASE USE IT IN ANSI SETTING *
+ClientStage.cpp
+Linking...
+   Creating library Release/Rainbow.lib and object Release/Rainbow.exp
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP46AB.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\release\
+copy release\Rainbow.dll ..\..\..\..\bin\client\Rainbow.dll
+copy release\Rainbow.dll ..\..\..\..\bin\client\release\Rainbow.dll
+copy release\Rainbow.pdb ..\..\..\..\bin\client\release\Rainbow.pdb
+copy release\Rainbow.map ..\..\..\..\bin\client\release\Rainbow.map
+md ..\..\..\bin\server\release\
+copy release\Rainbow.dll ..\..\..\..\bin\server\Rainbow.dll
+copy release\Rainbow.dll ..\..\..\..\bin\server\release\Rainbow.dll
+copy release\Rainbow.pdb ..\..\..\..\bin\server\release\Rainbow.pdb
+copy release\Rainbow.map ..\..\..\..\bin\server\release\Rainbow.map
+]
+Creating command line "C:\Users\PC\AppData\Local\Temp\RSP46AB.bat"
+
+A subdirectory or file ..\..\..\bin\client\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Rainbow.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

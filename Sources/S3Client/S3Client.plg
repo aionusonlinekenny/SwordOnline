@@ -1,0 +1,340 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Bishop - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Bishop.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Common - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Common.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Core - Win32 Server Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+CoreServer.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Core - Win32 Client Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+CoreClient.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Engine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Engine.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Engine - Win32 OutRead Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Engine.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: FilterText - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+FilterText.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: FilterText_StaticLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+FilterText_StaticLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GameServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+GameServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Goddess - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Goddess.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Heaven - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Heaven.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: LuaLibDll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+LuaLibDll.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Rainbow - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Rainbow.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Represent2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Represent2.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Represent3 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Represent3.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Client - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSP4D6.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /D "WIN32" /D "NDEBUG_WINDOWS" /D "_MBCS" /D "SWORDONLINE_USE_MD5_PASSWORD" /Fp"Release/S3Client.pch" /Yu"KWin32.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\TinhDuyen\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayerBar.cpp"
+]
+Creating command line "cl.exe @C:\Users\trantam\AppData\Local\Temp\RSP4D6.tmp" 
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSP4D7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Winmm.lib shlwapi.lib lualibdll.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Game.pdb" /map:"Release/Game.map" /debug /machine:I386 /out:"Release/Game.exe" /libpath:"../../lib/" 
+.\Release\AutoLocateWnd.obj
+.\Release\ComWindow.obj
+.\Release\MouseHover.obj
+.\Release\PopupMenu.obj
+.\Release\SpecialFuncs.obj
+.\Release\TextPic.obj
+.\Release\UiCursor.obj
+.\Release\UiImage.obj
+.\Release\WndButton.obj
+.\Release\WndChessPanel.obj
+.\Release\WndEdit.obj
+.\Release\WndImage.obj
+.\Release\WndImagePart.obj
+.\Release\WndLabeledButton.obj
+.\Release\WndList.obj
+.\Release\WndList2.obj
+.\Release\WndMessageListBox.obj
+.\Release\WndMovingImage.obj
+.\Release\WndObjContainer.obj
+.\Release\WndPage.obj
+.\Release\WndPureTextBtn.obj
+.\Release\WndRect.obj
+.\Release\Wnds.obj
+.\Release\WndScrollBar.obj
+.\Release\WndShadow.obj
+.\Release\WndShowAnimate.obj
+.\Release\WndText.obj
+.\Release\WndToolBar.obj
+.\Release\WndValueImage.obj
+.\Release\WndWindow.obj
+.\Release\UiConnectInfo.obj
+.\Release\UiLogin.obj
+.\Release\UiLoginBg.obj
+.\Release\UiSelServer.obj
+.\Release\UiChatItem.obj
+.\Release\UiChooseFace.obj
+.\Release\UiContainer.obj
+.\Release\UiFaceSelector.obj
+.\Release\UiPlayerBar.obj
+.\Release\UiPlayerControlBar.obj
+.\Release\UiStatus.obj
+.\Release\UiOptions.obj
+.\Release\UiInit.obj
+.\Release\BuySlectItemShop.obj
+.\Release\KUiKtc.obj
+.\Release\UiAuto.obj
+.\Release\UiBuyShop.obj
+.\Release\UiCheckItemBox.obj
+.\Release\UiGetMoney.obj
+.\Release\UiItem.obj
+.\Release\UiLoginPWStoreBox.obj
+.\Release\UiNewPWStoreBox.obj
+.\Release\UiPGBoxItem.obj
+.\Release\UiPWStoreBox.obj
+.\Release\UiRPNewBox.obj
+.\Release\UiShopName.obj
+.\Release\UiShopPrice.obj
+.\Release\UiSkills.obj
+.\Release\UiSkillTree.obj
+.\Release\UiSlectBoxCheck.obj
+.\Release\UiStaskItem.obj
+.\Release\UiStoreBox.obj
+.\Release\UiStringBox.obj
+.\Release\UiTopTKNew.obj
+.\Release\UiESCDlg.obj
+.\Release\UiGetString.obj
+.\Release\UiGetString3.obj
+.\Release\UiMsgSel.obj
+.\Release\UiParadeItem.obj
+.\Release\UiSelPlayerNearby.obj
+.\Release\UiNewPlayer.obj
+.\Release\UiSelNativePlace.obj
+.\Release\UiSelPlayer.obj
+.\Release\UiChannelSubscibe.obj
+.\Release\UiChatCentre.obj
+.\Release\UiChatPhrase.obj
+.\Release\UiChatStatus.obj
+.\Release\UiInformation.obj
+.\Release\UiInformation2.obj
+.\Release\UiTeamManage.obj
+.\Release\UiHeaderControlBar.obj
+.\Release\UiMsgCentrePad.obj
+.\Release\UiToolsControlBar.obj
+.\Release\UiShop.obj
+.\Release\UiShopGold.obj
+.\Release\UiTrade.obj
+.\Release\UiTradeConfirmWnd.obj
+.\Release\UiGame.obj
+.\Release\UiSysMsgCentre.obj
+.\Release\UiFindPos.obj
+.\Release\UiMapCave.obj
+.\Release\UiMarket.obj
+.\Release\UiMiniMap.obj
+.\Release\UiNewPlayerStartMsg.obj
+.\Release\UiPlayVideo.obj
+.\Release\UiHelper.obj
+.\Release\UiHelper2.obj
+.\Release\UiReconnect.obj
+.\Release\UiTaskDataFile.obj
+.\Release\UiTaskNote.obj
+.\Release\UiWorldMap.obj
+.\Release\UiNewsMessage.obj
+.\Release\UiNewsMessage1.obj
+.\Release\UiStrengthRank.obj
+.\Release\UiMsgSel2.obj
+.\Release\UiMsgSel3.obj
+.\Release\UiTimeBox.obj
+.\Release\UiTongAssignBox.obj
+.\Release\UiTongChangeCamp.obj
+.\Release\UiTongCreateSheet.obj
+.\Release\UiTongGetString.obj
+.\Release\UiTongManager.obj
+.\Release\UiTongStringName.obj
+.\Release\UiTrembleItem.obj
+.\Release\UiSoundSetting.obj
+.\Release\GameSpaceChangedNotify.obj
+.\Release\ShortcutKey.obj
+.\Release\UiBase.obj
+.\Release\UiShell.obj
+.\Release\ChatFilter.obj
+.\Release\FilterTextLib.obj
+.\Release\S3Client.obj
+.\Release\NetConnectAgent.obj
+.\Release\Login.obj
+.\Release\TextCtrlCmd.obj
+.\Release\ErrorCode.obj
+.\Release\stdafx.obj
+.\Release\Script1.res
+..\..\Lib\release\engine.lib
+..\..\Lib\release\CoreClient.lib
+]
+Creating command line "link.exe @C:\Users\trantam\AppData\Local\Temp\RSP4D7.tmp"
+<h3>Output Window</h3>
+Compiling...
+UiPlayerBar.cpp
+Linking...
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSP5F1.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\release\
+copy Release\Game.exe ..\..\..\bin\Client\Game.exe
+copy Release\Game.exe ..\..\..\bin\Client\release\Game.exe
+copy Release\Game.pdb ..\..\..\bin\Client\release\Game.pdb
+copy Release\Game.map ..\..\..\bin\Client\release\Game.map
+]
+Creating command line "C:\Users\trantam\AppData\Local\Temp\RSP5F1.bat"
+
+A subdirectory or file ..\..\..\bin\client\release\ already exists.
+The process cannot access the file because it is being used by another process.
+        0 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Game.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Relay - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+S3Relay.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3RelayServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+S3RelayServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Sword3PaySys - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Sword3PaySys.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

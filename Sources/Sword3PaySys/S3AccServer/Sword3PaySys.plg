@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sword3PaySys - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Sword3PaySys.res" /d "NDEBUG" "D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\Sword3PaySys.rc"" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSPA364.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\..\Headers" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Sword3PaySys.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\GlobalFun.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\KThread.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\LogFile.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\main.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\S3P_MSSQLServer_Result.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\S3PAccount.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\S3PDB_MSSQLServer_Connection.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\S3PDBConnectionPool.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\S3PDBConVBC.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\S3PDBSocketPool.cpp"
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\S3PResultVBC.cpp"
+]
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSPA364.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSPA365.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\..\Headers" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Sword3PaySys.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSPA365.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSPA366.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Sword3PaySys.pdb" /map:"Release/Sword3PaySys.map" /debug /machine:I386 /out:"Release/Sword3PaySys.exe" 
+".\Release\GlobalFun.obj"
+".\Release\KThread.obj"
+".\Release\LogFile.obj"
+".\Release\main.obj"
+".\Release\S3P_MSSQLServer_Result.obj"
+".\Release\S3PAccount.obj"
+".\Release\S3PDB_MSSQLServer_Connection.obj"
+".\Release\S3PDBConnectionPool.obj"
+".\Release\S3PDBConVBC.obj"
+".\Release\S3PDBSocketPool.obj"
+".\Release\S3PResultVBC.obj"
+".\Release\StdAfx.obj"
+".\Release\Sword3PaySys.res"
+]
+Creating command line "link.exe @C:\Users\PC\AppData\Local\Temp\RSPA366.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GlobalFun.cpp
+D:\GameBuild\SRCBUILDTEST\SwordOnline -volamtinhduyen\Sources\Sword3PaySys\S3AccServer\GlobalFun.cpp(475) : warning C4018: '<=' : signed/unsigned mismatch
+KThread.cpp
+LogFile.cpp
+main.cpp
+S3P_MSSQLServer_Result.cpp
+S3PAccount.cpp
+S3PDB_MSSQLServer_Connection.cpp
+S3PDBConnectionPool.cpp
+S3PDBConVBC.cpp
+S3PDBSocketPool.cpp
+S3PResultVBC.cpp
+Linking...
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSPABB4.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\multiserver\
+copy release\Sword3PaySys.exe ..\..\..\..\bin\multiserver\Sword3PaySys.exe
+copy release\Sword3PaySys.pdb ..\..\..\..\bin\multiserver\Sword3PaySys.pdb
+md ..\..\..\..\bin\multiserver\release\
+copy release\Sword3PaySys.exe ..\..\..\..\bin\multiserver\release\Sword3PaySys.exe
+copy release\Sword3PaySys.pdb ..\..\..\..\bin\multiserver\release\Sword3PaySys.pdb
+]
+Creating command line "C:\Users\PC\AppData\Local\Temp\RSPABB4.bat"
+
+A subdirectory or file ..\..\..\..\bin\multiserver\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\..\bin\multiserver\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Sword3PaySys.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

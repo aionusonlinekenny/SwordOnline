@@ -1,0 +1,20 @@
+// KLVideo.idl : IDL source for KLVideo.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (KLVideo.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(1C51AA48-4DC5-4FE0-9B0B-0785994D5A21),
+	version(1.0),
+	helpstring("KLVideo 1.0 Type Library")
+]
+library KLVIDEOLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

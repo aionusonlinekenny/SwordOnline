@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Heaven - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP5329.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\Common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HEAVEN_EXPORTS" /Fp"Release/Heaven.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SrcGame\FixLoadpak\SRC_FIX_24042020\swrod3\SwordOnline\Sources\MultiServer\Heaven\Heaven.cpp"
+"D:\SrcGame\FixLoadpak\SRC_FIX_24042020\swrod3\SwordOnline\Sources\MultiServer\Heaven\IServer.cpp"
+"D:\SrcGame\FixLoadpak\SRC_FIX_24042020\swrod3\SwordOnline\Sources\MultiServer\Heaven\ServerStage.cpp"
+]
+Creating command line "cl.exe @C:\Users\PC\AppData\Local\Temp\RSP5329.tmp" 
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP532A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Heaven.pdb" /map:"Release/Heaven.map" /debug /machine:I386 /def:".\Heaven.def" /out:"Release/Heaven.dll" /implib:"Release/Heaven.lib" 
+.\Release\Heaven.obj
+.\Release\IServer.obj
+.\Release\ServerStage.obj
+..\..\..\Lib\release\common.lib
+]
+Creating command line "link.exe @C:\Users\PC\AppData\Local\Temp\RSP532A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Heaven.cpp
+* ATTENTION : PLEASE USE IT IN ANSI SETTING *
+IServer.cpp
+ServerStage.cpp
+Linking...
+   Creating library Release/Heaven.lib and object Release/Heaven.exp
+Creating temporary file "C:\Users\PC\AppData\Local\Temp\RSP553E.bat" with contents
+[
+@echo off
+md ..\..\..\..\bin\client\
+copy release\heaven.dll ..\..\..\..\bin\client\Heaven.dll
+copy release\heaven.pdb ..\..\..\..\bin\client\Heaven.pdb
+md ..\..\..\..\bin\client\release\
+copy release\heaven.dll ..\..\..\..\bin\client\release\Heaven.dll
+copy release\heaven.pdb ..\..\..\..\bin\client\release\Heaven.pdb
+md ..\..\..\..\bin\server\
+copy release\heaven.dll ..\..\..\..\bin\server\Heaven.dll
+copy release\heaven.pdb ..\..\..\..\bin\server\Heaven.pdb
+md ..\..\..\..\bin\server\release\
+copy release\heaven.dll ..\..\..\..\bin\server\release\Heaven.dll
+copy release\heaven.pdb ..\..\..\..\bin\server\release\Heaven.pdb
+md ..\..\..\..\bin\multiserver\
+copy release\heaven.dll ..\..\..\..\bin\multiserver\Heaven.dll
+copy release\heaven.pdb ..\..\..\..\bin\multiserver\Heaven.pdb
+md ..\..\..\..\bin\multiserver\release\
+copy release\heaven.dll ..\..\..\..\bin\multiserver\release\Heaven.dll
+copy release\heaven.pdb ..\..\..\..\bin\multiserver\release\Heaven.pdb
+]
+Creating command line "C:\Users\PC\AppData\Local\Temp\RSP553E.bat"
+
+A subdirectory or file ..\..\..\..\bin\client\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\..\bin\client\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\..\bin\server\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\..\bin\server\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\..\bin\multiserver\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\..\bin\multiserver\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Heaven.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

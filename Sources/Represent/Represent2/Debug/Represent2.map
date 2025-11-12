@@ -1,0 +1,416 @@
+ Represent2
+
+ Timestamp is 67420668 (Sat Nov 23 23:44:24 2024)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000a002H .text                   CODE
+ 0001:0000a010 000001ddH .text$x                 CODE
+ 0002:00000000 000001a4H .idata$5                DATA
+ 0002:000001a8 00000351H .rdata                  DATA
+ 0002:00000500 000002c8H .xdata$x                DATA
+ 0002:000007c8 00000078H .idata$2                DATA
+ 0002:00000840 00000014H .idata$3                DATA
+ 0002:00000854 000001a4H .idata$4                DATA
+ 0002:000009f8 00000b1cH .idata$6                DATA
+ 0002:00001520 00000056H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 000003f0H .data                   DATA
+ 0003:00000400 0000005cH .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ?ImageNameToId@KImageStore2@@AAEIPBD@Z 10001000 f   KImageStore2.obj
+ 0001:000000cb       ?GetAdjustColorPalette@KImageStore2@@QAEPADHI@Z 100010cb f   KImageStore2.obj
+ 0001:000001ec       ?CreateAdjustColorPalette@KImageStore2@@AAEPADPBDH@Z 100011ec f   KImageStore2.obj
+ 0001:0000044e       ?SetAdjustColorList@KImageStore2@@QAEIPAII@Z 1000144e f   KImageStore2.obj
+ 0001:00000501       ?CreateImage@KImageStore2@@QAEIPBDHHH@Z 10001501 f   KImageStore2.obj
+ 0001:00000707       ?Free@KImageStore2@@QAEXXZ 10001707 f   KImageStore2.obj
+ 0001:000007f7       ?FreeImage@KImageStore2@@QAEXPBD@Z 100017f7 f   KImageStore2.obj
+ 0001:000008fb       ?GetExistedCreateBitmap@KImageStore2@@QAEPAXPBDIAAF@Z 100018fb f   KImageStore2.obj
+ 0001:00000a0c       ?CreateDirectDrawSurfaceFromBitmap@@YAPAUIDirectDrawSurface@@PAUKSGImageContent@@@Z 10001a0c f   KImageStore2.obj
+ 0001:00000a68       ?CreateBitmapSurface@KImageStore2@@QAE_NPBDAAIAAF@Z 10001a68 f   KImageStore2.obj
+ 0001:00000b86       ?GetImage@KImageStore2@@QAEPAXPBDAAIAAFHHAAPAX@Z 10001b86 f   KImageStore2.obj
+ 0001:00000e7c       ?GetSprFrame@KImageStore2@@AAEPAXPBDAAU_KISImageObj@1@H@Z 10001e7c f   KImageStore2.obj
+ 0001:00000f64       ?GetImageParam@KImageStore2@@QAE_NPBDHPAUKImageParam@@@Z 10001f64 f   KImageStore2.obj
+ 0001:0000117d       ?GetImageFrameParam@KImageStore2@@QAE_NPBDHHPAUKRPosition2@@1@Z 1000217d f   KImageStore2.obj
+ 0001:00001278       ?GetImagePixelAlpha@KImageStore2@@QAEHPBDHHHH@Z 10002278 f   KImageStore2.obj
+ 0001:000013cd       ?Init@KImageStore2@@QAE_NXZ 100023cd f   KImageStore2.obj
+ 0001:000013f9       ?SaveImage@KImageStore2@@QAE_NPBD0H@Z 100023f9 f   KImageStore2.obj
+ 0001:0000140f       ?SetBalanceParam@KImageStore2@@QAEXHI@Z 1000240f f   KImageStore2.obj
+ 0001:00001435       ?CheckBalance@KImageStore2@@AAEXXZ 10002435 f   KImageStore2.obj
+ 0001:00001668       ?ExpandSpace@KImageStore2@@AAE_NXZ 10002668 f   KImageStore2.obj
+ 0001:000016e0       ?FindImage@KImageStore2@@AAEHIH@Z 100026e0 f   KImageStore2.obj
+ 0001:0000186f       ?FreeImageObject@KImageStore2@@AAEXAAU_KISImageObj@1@H@Z 1000286f f   KImageStore2.obj
+ 0001:00001ade       ?LoadImageA@KImageStore2@@AAEPAXPBDAAU_KISImageObj@1@HAAPAX@Z 10002ade f   KImageStore2.obj
+ 0001:00001d52       ??0KImageStore2@@QAE@XZ    10002d52 f   KImageStore2.obj
+ 0001:00001db7       ??1KImageStore2@@QAE@XZ    10002db7 f   KImageStore2.obj
+ 0001:00001e13       ?ClearAllAdjustColorPalette@KImageStore2@@AAEXXZ 10002e13 f   KImageStore2.obj
+ 0001:00001ec0       ??0KAutoCriticalSection@@QAE@AAVKCriticalSection@@@Z 10002ec0 f i KImageStore2.obj
+ 0001:00001f00       ?Lock@KCriticalSection@@QAEHXZ 10002f00 f i KImageStore2.obj
+ 0001:00001f40       ??1KAutoCriticalSection@@QAE@XZ 10002f40 f i KImageStore2.obj
+ 0001:00001f70       ?UnLock@KCriticalSection@@QAEHXZ 10002f70 f i KImageStore2.obj
+ 0001:00001fb0       ??0KCriticalSection@@QAE@XZ 10002fb0 f i KImageStore2.obj
+ 0001:00001ff0       ??1KCriticalSection@@QAE@XZ 10002ff0 f i KImageStore2.obj
+ 0001:00002030       ?InitGdiplus@@YA_NXZ       10003030 f   RepresentUtility.obj
+ 0001:00002093       ?ShutdownGdiplus@@YAXXZ    10003093 f   RepresentUtility.obj
+ 0001:000020b1       ?GetEncoderClsid@@YAHPBGPAU_GUID@@@Z 100030b1 f   RepresentUtility.obj
+ 0001:000021e2       ?SaveBufferToJpgFile32@@YA_NPADPAXHHHI@Z 100031e2 f   RepresentUtility.obj
+ 0001:000027ff       ?SaveBufferToJpgFile24@@YA_NPADPAXHHHI@Z 100037ff f   RepresentUtility.obj
+ 0001:00002e20       ??3GdiplusBase@Gdiplus@@SAXPAX@Z 10003e20 f i RepresentUtility.obj
+ 0001:00002e40       ??2GdiplusBase@Gdiplus@@SAPAXI@Z 10003e40 f i RepresentUtility.obj
+ 0001:00002e60       ??0GdiplusStartupInput@Gdiplus@@QAE@P6GXW4DebugEventLevel@1@PAD@ZHH@Z 10003e60 f i RepresentUtility.obj
+ 0001:00002ea0       ??0Image@Gdiplus@@QAE@PAUIStream@@H@Z 10003ea0 f i RepresentUtility.obj
+ 0001:00002f10       ??_GImage@Gdiplus@@UAEPAXI@Z 10003f10 f i RepresentUtility.obj
+ 0001:00002f10       ??_EImage@Gdiplus@@UAEPAXI@Z 10003f10 f i RepresentUtility.obj
+ 0001:00002f50       ??1Image@Gdiplus@@UAE@XZ   10003f50 f i RepresentUtility.obj
+ 0001:00002f90       ?Clone@Image@Gdiplus@@UAEPAV12@XZ 10003f90 f i RepresentUtility.obj
+ 0001:00003050       ?SetStatus@Image@Gdiplus@@IBE?AW4Status@2@W432@@Z 10004050 f i RepresentUtility.obj
+ 0001:00003080       ?Save@Image@Gdiplus@@QAE?AW4Status@2@PBGPBU_GUID@@PBVEncoderParameters@2@@Z 10004080 f i RepresentUtility.obj
+ 0001:000030c0       ??0Image@Gdiplus@@IAE@PAVGpImage@1@W4Status@1@@Z 100040c0 f i RepresentUtility.obj
+ 0001:00003100       ?SetNativeImage@Image@Gdiplus@@IAEXPAVGpImage@2@@Z 10004100 f i RepresentUtility.obj
+ 0001:00003120       ?GetImageEncodersSize@Gdiplus@@YA?AW4Status@1@PAI0@Z 10004120 f i RepresentUtility.obj
+ 0001:00003140       ?GetImageEncoders@Gdiplus@@YA?AW4Status@1@IIPAVImageCodecInfo@1@@Z 10004140 f i RepresentUtility.obj
+ 0001:00003160       ??_H@YGXPAXIHP6EX0@Z@Z     10004160 f i RepresentUtility.obj
+ 0001:000031a0       _CreateRepresentShell      100041a0 f   KRepresentShell2.obj
+ 0001:000031fc       ?AdviseRepresent@KRepresentShell2@@UAEJPAUIInlinePicEngineSink@@@Z 100041fc f   KRepresentShell2.obj
+ 0001:0000324e       ?UnAdviseRepresent@KRepresentShell2@@UAEJPAUIInlinePicEngineSink@@@Z 1000424e f   KRepresentShell2.obj
+ 0001:00003279       ??0KRepresentShell2@@QAE@XZ 10004279 f   KRepresentShell2.obj
+ 0001:00003352       ??1KRepresentShell2@@AAE@XZ 10004352 f   KRepresentShell2.obj
+ 0001:0000346f       ?SetAdjustColorList@KRepresentShell2@@UAEIPAII@Z 1000446f f   KRepresentShell2.obj
+ 0001:000034a0       ?Create@KRepresentShell2@@UAE_NHH_N@Z 100044a0 f   KRepresentShell2.obj
+ 0001:0000355b       ?CreateAFont@KRepresentShell2@@UAE_NPBDW4CHARACTER_CODE_SET@@H@Z 1000455b f   KRepresentShell2.obj
+ 0001:00003880       ?CreateImage@KRepresentShell2@@UAEIPBDHHH@Z 10004880 f   KRepresentShell2.obj
+ 0001:000038b9       ?DrawPrimitives@KRepresentShell2@@UAEXHPAUKRepresentUnit@@IH@Z 100048b9 f   KRepresentShell2.obj
+ 0001:00004ecf       ?DrawPrimitivesOnImage@KRepresentShell2@@UAEXHPAUKRepresentUnit@@IPBDIAAF@Z 10005ecf f   KRepresentShell2.obj
+ 0001:00005238       ?ClearImageData@KRepresentShell2@@UAEXPBDIF@Z 10006238 f   KRepresentShell2.obj
+ 0001:000052ae       ?FreeAllImage@KRepresentShell2@@UAEXXZ 100062ae f   KRepresentShell2.obj
+ 0001:000052d5       ?FreeImage@KRepresentShell2@@UAEXPBD@Z 100062d5 f   KRepresentShell2.obj
+ 0001:00005302       ?GetBitmapDataBuffer@KRepresentShell2@@UAEPAXPBDPAUKBitmapDataBuffInfo@@@Z 10006302 f   KRepresentShell2.obj
+ 0001:0000542f       ?ReleaseBitmapDataBuffer@KRepresentShell2@@UAEXPBDPAX@Z 1000642f f   KRepresentShell2.obj
+ 0001:000054b3       ?GetImageParam@KRepresentShell2@@UAE_NPBDPAUKImageParam@@H@Z 100064b3 f   KRepresentShell2.obj
+ 0001:000054e8       ?GetImageFrameParam@KRepresentShell2@@UAE_NPBDHPAUKRPosition2@@1H@Z 100064e8 f   KRepresentShell2.obj
+ 0001:00005525       ?GetImagePixelAlpha@KRepresentShell2@@UAEHPBDHHHH@Z 10006525 f   KRepresentShell2.obj
+ 0001:00005562       ?LookAt@KRepresentShell2@@UAEXHHH@Z 10006562 f   KRepresentShell2.obj
+ 0001:000055e9       ?OutputText@KRepresentShell2@@UAEXHPBDHHHIHHI@Z 100065e9 f   KRepresentShell2.obj
+ 0001:0000571a       ?OutputRichText@KRepresentShell2@@UAEHHPAUKOutputTextParam@@PBDHH@Z 1000671a f   KRepresentShell2.obj
+ 0001:0000588a       ?LocateRichText@KRepresentShell2@@UAEHHHHPAUKOutputTextParam@@PBDHH@Z 1000688a f   KRepresentShell2.obj
+ 0001:00005a04       ?Release@KRepresentShell2@@UAEXXZ 10006a04 f   KRepresentShell2.obj
+ 0001:00005a70       ?ReleaseAFont@KRepresentShell2@@UAEXH@Z 10006a70 f   KRepresentShell2.obj
+ 0001:00005b21       ?Reset@KRepresentShell2@@UAE_NHH_N@Z 10006b21 f   KRepresentShell2.obj
+ 0001:00005b61       ?SaveImage@KRepresentShell2@@UAE_NPBD0H@Z 10006b61 f   KRepresentShell2.obj
+ 0001:00005b96       ?SetImageStoreBalanceParam@KRepresentShell2@@UAEXHI@Z 10006b96 f   KRepresentShell2.obj
+ 0001:00005bc7       ?CopyDeviceImageToImage@KRepresentShell2@@UAE_NPBDHHHHHH@Z 10006bc7 f   KRepresentShell2.obj
+ 0001:00005d46       ?CoordinateTransform@KRepresentShell2@@AAEXAAH0H@Z 10006d46 f   KRepresentShell2.obj
+ 0001:00005d93       ?RepresentBegin@KRepresentShell2@@UAE_NHI@Z 10006d93 f   KRepresentShell2.obj
+ 0001:00005e11       ?RepresentEnd@KRepresentShell2@@UAEXXZ 10006e11 f   KRepresentShell2.obj
+ 0001:00005e5b       ?ViewPortCoordToSpaceCoord@KRepresentShell2@@UAEXAAH0H@Z 10006e5b f   KRepresentShell2.obj
+ 0001:00005ea5       ?SaveScreenToFile@KRepresentShell2@@UAE_NPBDW4ScreenFileType@@I@Z 10006ea5 f   KRepresentShell2.obj
+ 0001:000062d0       ??0iRepresentShell@@QAE@XZ 100072d0 f i KRepresentShell2.obj
+ 0001:000062f0       ?SetLightInfo@KRepresentShell2@@UAEXHHPAI@Z 100072f0 f i KRepresentShell2.obj
+ 0001:00006310       ?SetOption@KRepresentShell2@@UAEXW4RepresentOption@@_N@Z 10007310 f i KRepresentShell2.obj
+ 0001:00006330       ?SetGamma@KRepresentShell2@@UAEXH@Z 10007330 f i KRepresentShell2.obj
+ 0001:00006350       ??_GKRepresentShell2@@AAEPAXI@Z 10007350 f i KRepresentShell2.obj
+ 0001:00006390       ??0KFont2@@QAE@XZ          10007390 f   KFont2.obj
+ 0001:00006442       ??1KFont2@@AAE@XZ          10007442 f   KFont2.obj
+ 0001:000064a7       ?Init@KFont2@@UAE_NPAX@Z   100074a7 f   KFont2.obj
+ 0001:000064f0       ?Terminate@KFont2@@UAEXXZ  100074f0 f   KFont2.obj
+ 0001:00006528       ?Load@KFont2@@UAE_NPBD@Z   10007528 f   KFont2.obj
+ 0001:0000659f       ?OutputText@KFont2@@UAEXPBDHHHIH@Z 1000759f f   KFont2.obj
+ 0001:000067ec       ?SetBorderColor@KFont2@@UAEXI@Z 100077ec f   KFont2.obj
+ 0001:00006853       ?DrawCharacter@KFont2@@ABEXHHEEH@Z 10007853 f   KFont2.obj
+ 0001:000068ec       ?GetFontSize@KFont2@@UAEXPAH0@Z 100078ec f   KFont2.obj
+ 0001:00006922       ?SetOutputSize@KFont2@@UAEXHH@Z 10007922 f   KFont2.obj
+ 0001:00006995       ?Clone@KFont2@@UAEPAUiFont@@XZ 10007995 f   KFont2.obj
+ 0001:000069d1       ?Release@KFont2@@UAEXXZ    100079d1 f   KFont2.obj
+ 0001:00006a40       ??0iFont@@QAE@XZ           10007a40 f i KFont2.obj
+ 0001:00006a60       ??_GKFont2@@AAEPAXI@Z      10007a60 f i KFont2.obj
+ 0001:00006aa0       ??0KFontData@@QAE@XZ       10007aa0 f   KFontData.obj
+ 0001:00006ae6       ??1KFontData@@QAE@XZ       10007ae6 f   KFontData.obj
+ 0001:00006b0a       ?Load@KFontData@@QAE_NPBD@Z 10007b0a f   KFontData.obj
+ 0001:00006d7e       ?GetInfo@KFontData@@QBEXAAH0@Z 10007d7e f   KFontData.obj
+ 0001:00006da8       ?Terminate@KFontData@@QAEXXZ 10007da8 f   KFontData.obj
+ 0001:00006e2f       ?GetCharacterData@KFontData@@QBEPAEEE@Z 10007e2f f   KFontData.obj
+ 0001:00006e90       ??0KTextProcess@@QAE@XZ    10007e90 f   TextProcess.obj
+ 0001:00006ee0       ??0KTextProcess@@QAE@PBDHH@Z 10007ee0 f   TextProcess.obj
+ 0001:00006f15       ?SetContent@KTextProcess@@QAEXPBDHH@Z 10007f15 f   TextProcess.obj
+ 0001:00006f8c       ?GetSimplexText@KTextProcess@@AAEHAAHAAUKTP_CTRL@1@1H@Z 10007f8c f   TextProcess.obj
+ 0001:00007484       ?SeekToSpecialLine@KTextProcess@@QAEHHAAUKTP_CTRL@1@0AAHHH@Z 10008484 f   TextProcess.obj
+ 0001:0000791f       ?DrawTextLine@KTextProcess@@QAEHPAUiFont@@HPAUKOutputTextParam@@@Z 1000891f f   TextProcess.obj
+ 0001:00008035       ?TransXYPosToCharOffset@KTextProcess@@QAEHHHPAUiFont@@HPAUKOutputTextParam@@@Z 10009035 f   TextProcess.obj
+ 0001:00008871       ?GetCurLineHeight@KTextProcess@@QAEXAAH0HH@Z 10009871 f   TextProcess.obj
+ 0001:00008bb0       ?Backup@KTextProcess@@QAEXXZ 10009bb0 f i TextProcess.obj
+ 0001:00008c10       ?Restore@KTextProcess@@QAEXXZ 10009c10 f i TextProcess.obj
+ 0001:00008c70       ?RIO_Set16BitImageFormat@@YAXH@Z 10009c70 f   ImageOperation.obj
+ 0001:00008c8b       ?RIO_CopySprToBuffer@@YAXPAXHH00HHHH@Z 10009c8b f   ImageOperation.obj
+ 0001:00009106       ?RIO_CopySprToBufferAlpha@@YAXPAXHH00HHHH@Z 1000a106 f   ImageOperation.obj
+ 0001:000096d9       ?RIO_CopyBitmap16ToBuffer@@YAXPAXHH0HHHH@Z 1000a6d9 f   ImageOperation.obj
+ 0001:000097fa       ?RIO_CopySprToBuffer3LevelAlpha@@YAXPAXHH00HHHH@Z 1000a7fa f   ImageOperation.obj
+ 0001:00009b30       _GlobalMemoryStatus@4      1000ab30 f   kernel32:KERNEL32.dll
+ 0001:00009b36       _EnterCriticalSection@4    1000ab36 f   kernel32:KERNEL32.dll
+ 0001:00009b3c       _LeaveCriticalSection@4    1000ab3c f   kernel32:KERNEL32.dll
+ 0001:00009b42       _InitializeCriticalSection@4 1000ab42 f   kernel32:KERNEL32.dll
+ 0001:00009b48       _DeleteCriticalSection@4   1000ab48 f   kernel32:KERNEL32.dll
+ 0001:00009b4e       _MultiByteToWideChar@24    1000ab4e f   kernel32:KERNEL32.dll
+ 0001:00009b54       _ClientToScreen@8          1000ab54 f   user32:USER32.dll
+ 0001:00009b5a       _GetClientRect@8           1000ab5a f   user32:USER32.dll
+ 0001:00009b60       _CreateStreamOnHGlobal@12  1000ab60 f   ole32:ole32.dll
+ 0001:00009b66       _GdiplusStartup@12         1000ab66 f   GdiPlus:gdiplus.dll
+ 0001:00009b6c       _GdiplusShutdown@4         1000ab6c f   GdiPlus:gdiplus.dll
+ 0001:00009b72       _GdipFree@4                1000ab72 f   GdiPlus:gdiplus.dll
+ 0001:00009b78       _GdipAlloc@4               1000ab78 f   GdiPlus:gdiplus.dll
+ 0001:00009b7e       _GdipLoadImageFromStream@8 1000ab7e f   GdiPlus:gdiplus.dll
+ 0001:00009b84       _GdipLoadImageFromStreamICM@8 1000ab84 f   GdiPlus:gdiplus.dll
+ 0001:00009b8a       _GdipDisposeImage@4        1000ab8a f   GdiPlus:gdiplus.dll
+ 0001:00009b90       _GdipCloneImage@8          1000ab90 f   GdiPlus:gdiplus.dll
+ 0001:00009b96       _GdipSaveImageToFile@16    1000ab96 f   GdiPlus:gdiplus.dll
+ 0001:00009b9c       _GdipGetImageEncodersSize@8 1000ab9c f   GdiPlus:gdiplus.dll
+ 0001:00009ba2       _GdipGetImageEncoders@12   1000aba2 f   GdiPlus:gdiplus.dll
+ 0001:00009ba8       ?g_Pal16ToPal24@@YAXPAGPAUKPAL24@@H@Z 1000aba8 f   engine:Engine.dll
+ 0001:00009bae       ?CreateSurface@KDirectDraw@@QAEPAUIDirectDrawSurface@@HH@Z 1000abae f   engine:Engine.dll
+ 0001:00009bb4       ?SprGetFrame@@YAPAUSPRFRAME@@PAUSPRHEAD@@H@Z 1000abb4 f   engine:Engine.dll
+ 0001:00009bba       ?release_image@@YAXPAUKSGImageContent@@@Z 1000abba f   engine:Engine.dll
+ 0001:00009bc0       ?SprReleaseFrame@@YAXPAUSPRFRAME@@@Z 1000abc0 f   engine:Engine.dll
+ 0001:00009bc6       ?SprReleaseHeader@@YAXPAUSPRHEAD@@@Z 1000abc6 f   engine:Engine.dll
+ 0001:00009bcc       ?get_jpg_image@@YAPAUKSGImageContent@@QBDI@Z 1000abcc f   engine:Engine.dll
+ 0001:00009bd2       ?g_Pal24ToPal16@@YAXPAUKPAL24@@PAGH@Z 1000abd2 f   engine:Engine.dll
+ 0001:00009bd8       ?SprGetHeader@@YAPAUSPRHEAD@@PBDAAPAUSPROFFS@@@Z 1000abd8 f   engine:Engine.dll
+ 0001:00009bde       ??1KDirectDraw@@QAE@XZ     1000abde f   engine:Engine.dll
+ 0001:00009be4       ??1KCanvas@@QAE@XZ         1000abe4 f   engine:Engine.dll
+ 0001:00009bea       ??0KDirectDraw@@QAE@XZ     1000abea f   engine:Engine.dll
+ 0001:00009bf0       ??0KCanvas@@QAE@XZ         1000abf0 f   engine:Engine.dll
+ 0001:00009bf6       ?Exit@KDirectDraw@@QAEXXZ  1000abf6 f   engine:Engine.dll
+ 0001:00009bfc       ?GetRGBBitMask16@KDirectDraw@@QAEKXZ 1000abfc f   engine:Engine.dll
+ 0001:00009c02       ?Init@KCanvas@@QAE_NHH@Z   1000ac02 f   engine:Engine.dll
+ 0001:00009c08       ?Init@KDirectDraw@@QAEHXZ  1000ac08 f   engine:Engine.dll
+ 0001:00009c0e       ?Mode@KDirectDraw@@QAEXHHH@Z 1000ac0e f   engine:Engine.dll
+ 0001:00009c14       ?BltSurface@KCanvas@@QAEXPAUIDirectDrawSurface@@PAUtagRECT@@@Z 1000ac14 f   engine:Engine.dll
+ 0001:00009c1a       ?ClearAlpha@KCanvas@@QAEXHHHHHH@Z 1000ac1a f   engine:Engine.dll
+ 0001:00009c20       ?DrawLineAlpha@KCanvas@@QAEXHHHHHH@Z 1000ac20 f   engine:Engine.dll
+ 0001:00009c26       ?DrawLine@KCanvas@@QAEXHHHHH@Z 1000ac26 f   engine:Engine.dll
+ 0001:00009c2c       ?DrawPixel@KCanvas@@QAEXHHH@Z 1000ac2c f   engine:Engine.dll
+ 0001:00009c32       ?SetClipRect@KCanvas@@QAEXPAUtagRECT@@@Z 1000ac32 f   engine:Engine.dll
+ 0001:00009c38       ?GetClipRect@KCanvas@@QAEXPAUtagRECT@@@Z 1000ac38 f   engine:Engine.dll
+ 0001:00009c3e       ?DrawBitmap16@KCanvas@@QAEXHHHHPAX@Z 1000ac3e f   engine:Engine.dll
+ 0001:00009c44       ?DrawSpriteBorder@KCanvas@@QAEXHHHHHPAX@Z 1000ac44 f   engine:Engine.dll
+ 0001:00009c4a       ?DrawSprite@KCanvas@@QAEXHHHHPAX0@Z 1000ac4a f   engine:Engine.dll
+ 0001:00009c50       ?DrawSprite3LevelAlpha@KCanvas@@QAEXHHHHPAX0@Z 1000ac50 f   engine:Engine.dll
+ 0001:00009c56       ?DrawSpriteAlpha@KCanvas@@QAEXHHHHPAX0H@Z 1000ac56 f   engine:Engine.dll
+ 0001:00009c5c       ?GetHeight@KCanvas@@QAEHXZ 1000ac5c f   engine:Engine.dll
+ 0001:00009c62       ?GetWidth@KCanvas@@QAEHXZ  1000ac62 f   engine:Engine.dll
+ 0001:00009c68       ?Terminate@KCanvas@@QAEXXZ 1000ac68 f   engine:Engine.dll
+ 0001:00009c6e       ?UnlockCanvas@KCanvas@@QAEXXZ 1000ac6e f   engine:Engine.dll
+ 0001:00009c74       ?LockCanvas@KCanvas@@QAEPAXAAH@Z 1000ac74 f   engine:Engine.dll
+ 0001:00009c7a       ?FillCanvas@KCanvas@@QAEXG@Z 1000ac7a f   engine:Engine.dll
+ 0001:00009c80       ?UpdateScreen@KCanvas@@QAEXXZ 1000ac80 f   engine:Engine.dll
+ 0001:00009c86       ?Changed@KCanvas@@QAEXH@Z  1000ac86 f   engine:Engine.dll
+ 0001:00009c8c       ?SaveBuffer24@KBmpFile24@@SAHPADPAXHHH@Z 1000ac8c f   engine:Engine.dll
+ 0001:00009c92       ?UnLockPrimaryBuffer@KDirectDraw@@QAEXXZ 1000ac92 f   engine:Engine.dll
+ 0001:00009c98       ?GetScreenPitch@KDirectDraw@@QAEKXZ 1000ac98 f   engine:Engine.dll
+ 0001:00009c9e       ?LockPrimaryBuffer@KDirectDraw@@QAEPAXXZ 1000ac9e f   engine:Engine.dll
+ 0001:00009ca4       ?GetScreenHeight@KDirectDraw@@QAEKXZ 1000aca4 f   engine:Engine.dll
+ 0001:00009caa       ?GetScreenWidth@KDirectDraw@@QAEKXZ 1000acaa f   engine:Engine.dll
+ 0001:00009cb0       ?g_GetMainHWnd@@YAPAUHWND__@@XZ 1000acb0 f   engine:Engine.dll
+ 0001:00009cb6       ?GetScreenMode@KDirectDraw@@QAEKXZ 1000acb6 f   engine:Engine.dll
+ 0001:00009cbc       _TIsCharacterNotAlowAtLineHead 1000acbc f   engine:Engine.dll
+ 0001:00009cc2       _TGetSecondVisibleCharacterThisLine 1000acc2 f   engine:Engine.dll
+ 0001:00009cc8       ?DrawFontWithBorder@KCanvas@@QAEXHHHHHHPAXH@Z 1000acc8 f   engine:Engine.dll
+ 0001:00009cce       ?Close@KPakFile@@QAEXXZ    1000acce f   engine:Engine.dll
+ 0001:00009cd4       ?Read@KPakFile@@QAEKPAXI@Z 1000acd4 f   engine:Engine.dll
+ 0001:00009cda       ??1KPakFile@@QAE@XZ        1000acda f   engine:Engine.dll
+ 0001:00009ce0       ?Open@KPakFile@@QAEHPBD@Z  1000ace0 f   engine:Engine.dll
+ 0001:00009ce6       ??0KPakFile@@QAE@XZ        1000ace6 f   engine:Engine.dll
+ 0001:00009cec       __chkesp                   1000acec f   MSVCRTD:MSVCRTD.dll
+ 0001:00009cf2       _malloc                    1000acf2 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009cf8       __CrtDbgReport             1000acf8 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009cfe       _memcpy                    1000acfe f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d04       ___CxxFrameHandler         1000ad04 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d10       _free                      1000ad10 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d16       _realloc                   1000ad16 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d1c       _memset                    1000ad1c f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d22       _wcscmp                    1000ad22 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d28       ??3@YAXPAX@Z               1000ad28 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d2e       _strlen                    1000ad2e f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d34       ??2@YAPAXI@Z               1000ad34 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d3a       __assert                   1000ad3a f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d40       __purecall                 1000ad40 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d46       _atoi                      1000ad46 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d4c       __ftol                     1000ad4c f   MSVCRTD:MSVCRTD.dll
+ 0001:00009d60       __CRT_INIT@12              1000ad60 f   MSVCRTD:crtdll.obj
+ 0001:00009e70       __DllMainCRTStartup@12     1000ae70 f   MSVCRTD:crtdll.obj
+ 0001:00009f64       __free_dbg                 1000af64 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009f6a       __initterm                 1000af6a f   MSVCRTD:MSVCRTD.dll
+ 0001:00009f70       __onexit                   1000af70 f   MSVCRTD:atonexit.obj
+ 0001:00009fb0       _atexit                    1000afb0 f   MSVCRTD:atonexit.obj
+ 0001:00009fc8       __malloc_dbg               1000afc8 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009fd0       _DllMain@12                1000afd0 f   MSVCRTD:dllmain.obj
+ 0001:00009ff6       ___dllonexit               1000aff6 f   MSVCRTD:MSVCRTD.dll
+ 0001:00009ffc       _DisableThreadLibraryCalls@4 1000affc f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_?DrawSpriteBorder@KCanvas@@QAEXHHHHHPAX@Z 1000c000     engine:Engine.dll
+ 0002:00000004       __imp_?UpdateScreen@KCanvas@@QAEXXZ 1000c004     engine:Engine.dll
+ 0002:00000008       __imp_?FillCanvas@KCanvas@@QAEXG@Z 1000c008     engine:Engine.dll
+ 0002:0000000c       __imp_?LockCanvas@KCanvas@@QAEPAXAAH@Z 1000c00c     engine:Engine.dll
+ 0002:00000010       __imp_?UnlockCanvas@KCanvas@@QAEXXZ 1000c010     engine:Engine.dll
+ 0002:00000014       __imp_?Terminate@KCanvas@@QAEXXZ 1000c014     engine:Engine.dll
+ 0002:00000018       __imp_?GetWidth@KCanvas@@QAEHXZ 1000c018     engine:Engine.dll
+ 0002:0000001c       __imp_??0KPakFile@@QAE@XZ  1000c01c     engine:Engine.dll
+ 0002:00000020       __imp_?Open@KPakFile@@QAEHPBD@Z 1000c020     engine:Engine.dll
+ 0002:00000024       __imp_??1KPakFile@@QAE@XZ  1000c024     engine:Engine.dll
+ 0002:00000028       __imp_?Read@KPakFile@@QAEKPAXI@Z 1000c028     engine:Engine.dll
+ 0002:0000002c       __imp_?Close@KPakFile@@QAEXXZ 1000c02c     engine:Engine.dll
+ 0002:00000030       __imp_?DrawFontWithBorder@KCanvas@@QAEXHHHHHHPAXH@Z 1000c030     engine:Engine.dll
+ 0002:00000034       __imp__TGetSecondVisibleCharacterThisLine 1000c034     engine:Engine.dll
+ 0002:00000038       __imp__TIsCharacterNotAlowAtLineHead 1000c038     engine:Engine.dll
+ 0002:0000003c       __imp_?GetScreenMode@KDirectDraw@@QAEKXZ 1000c03c     engine:Engine.dll
+ 0002:00000040       __imp_?g_GetMainHWnd@@YAPAUHWND__@@XZ 1000c040     engine:Engine.dll
+ 0002:00000044       __imp_?GetScreenWidth@KDirectDraw@@QAEKXZ 1000c044     engine:Engine.dll
+ 0002:00000048       __imp_?GetScreenHeight@KDirectDraw@@QAEKXZ 1000c048     engine:Engine.dll
+ 0002:0000004c       __imp_?LockPrimaryBuffer@KDirectDraw@@QAEPAXXZ 1000c04c     engine:Engine.dll
+ 0002:00000050       __imp_?GetScreenPitch@KDirectDraw@@QAEKXZ 1000c050     engine:Engine.dll
+ 0002:00000054       __imp_?UnLockPrimaryBuffer@KDirectDraw@@QAEXXZ 1000c054     engine:Engine.dll
+ 0002:00000058       __imp_?SaveBuffer24@KBmpFile24@@SAHPADPAXHHH@Z 1000c058     engine:Engine.dll
+ 0002:0000005c       __imp_?g_RGB@@3P6AGHHH@ZA  1000c05c     engine:Engine.dll
+ 0002:00000060       __imp_?g_Pal16ToPal24@@YAXPAGPAUKPAL24@@H@Z 1000c060     engine:Engine.dll
+ 0002:00000064       __imp_?CreateSurface@KDirectDraw@@QAEPAUIDirectDrawSurface@@HH@Z 1000c064     engine:Engine.dll
+ 0002:00000068       __imp_?g_pDirectDraw@@3PAVKDirectDraw@@A 1000c068     engine:Engine.dll
+ 0002:0000006c       __imp_?SprGetFrame@@YAPAUSPRFRAME@@PAUSPRHEAD@@H@Z 1000c06c     engine:Engine.dll
+ 0002:00000070       __imp_?release_image@@YAXPAUKSGImageContent@@@Z 1000c070     engine:Engine.dll
+ 0002:00000074       __imp_?SprReleaseFrame@@YAXPAUSPRFRAME@@@Z 1000c074     engine:Engine.dll
+ 0002:00000078       __imp_?SprReleaseHeader@@YAXPAUSPRHEAD@@@Z 1000c078     engine:Engine.dll
+ 0002:0000007c       __imp_?get_jpg_image@@YAPAUKSGImageContent@@QBDI@Z 1000c07c     engine:Engine.dll
+ 0002:00000080       __imp_?g_Pal24ToPal16@@YAXPAUKPAL24@@PAGH@Z 1000c080     engine:Engine.dll
+ 0002:00000084       __imp_?SprGetHeader@@YAPAUSPRHEAD@@PBDAAPAUSPROFFS@@@Z 1000c084     engine:Engine.dll
+ 0002:00000088       __imp_??1KDirectDraw@@QAE@XZ 1000c088     engine:Engine.dll
+ 0002:0000008c       __imp_??1KCanvas@@QAE@XZ   1000c08c     engine:Engine.dll
+ 0002:00000090       __imp_??0KDirectDraw@@QAE@XZ 1000c090     engine:Engine.dll
+ 0002:00000094       __imp_??0KCanvas@@QAE@XZ   1000c094     engine:Engine.dll
+ 0002:00000098       __imp_?Exit@KDirectDraw@@QAEXXZ 1000c098     engine:Engine.dll
+ 0002:0000009c       __imp_?GetRGBBitMask16@KDirectDraw@@QAEKXZ 1000c09c     engine:Engine.dll
+ 0002:000000a0       __imp_?Init@KCanvas@@QAE_NHH@Z 1000c0a0     engine:Engine.dll
+ 0002:000000a4       __imp_?Init@KDirectDraw@@QAEHXZ 1000c0a4     engine:Engine.dll
+ 0002:000000a8       __imp_?Mode@KDirectDraw@@QAEXHHH@Z 1000c0a8     engine:Engine.dll
+ 0002:000000ac       __imp_?BltSurface@KCanvas@@QAEXPAUIDirectDrawSurface@@PAUtagRECT@@@Z 1000c0ac     engine:Engine.dll
+ 0002:000000b0       __imp_?ClearAlpha@KCanvas@@QAEXHHHHHH@Z 1000c0b0     engine:Engine.dll
+ 0002:000000b4       __imp_?DrawLineAlpha@KCanvas@@QAEXHHHHHH@Z 1000c0b4     engine:Engine.dll
+ 0002:000000b8       __imp_?DrawLine@KCanvas@@QAEXHHHHH@Z 1000c0b8     engine:Engine.dll
+ 0002:000000bc       __imp_?DrawPixel@KCanvas@@QAEXHHH@Z 1000c0bc     engine:Engine.dll
+ 0002:000000c0       __imp_?SetClipRect@KCanvas@@QAEXPAUtagRECT@@@Z 1000c0c0     engine:Engine.dll
+ 0002:000000c4       __imp_?GetClipRect@KCanvas@@QAEXPAUtagRECT@@@Z 1000c0c4     engine:Engine.dll
+ 0002:000000c8       __imp_?DrawBitmap16@KCanvas@@QAEXHHHHPAX@Z 1000c0c8     engine:Engine.dll
+ 0002:000000cc       __imp_?GetHeight@KCanvas@@QAEHXZ 1000c0cc     engine:Engine.dll
+ 0002:000000d0       __imp_?DrawSprite@KCanvas@@QAEXHHHHPAX0@Z 1000c0d0     engine:Engine.dll
+ 0002:000000d4       __imp_?DrawSprite3LevelAlpha@KCanvas@@QAEXHHHHPAX0@Z 1000c0d4     engine:Engine.dll
+ 0002:000000d8       __imp_?DrawSpriteAlpha@KCanvas@@QAEXHHHHPAX0H@Z 1000c0d8     engine:Engine.dll
+ 0002:000000dc       __imp_?Changed@KCanvas@@QAEXH@Z 1000c0dc     engine:Engine.dll
+ 0002:000000e0       \177Engine_NULL_THUNK_DATA 1000c0e0     engine:Engine.dll
+ 0002:000000e4       __imp__MultiByteToWideChar@24 1000c0e4     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__DeleteCriticalSection@4 1000c0e8     kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__InitializeCriticalSection@4 1000c0ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__LeaveCriticalSection@4 1000c0f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__EnterCriticalSection@4 1000c0f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__GlobalMemoryStatus@4 1000c0f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__DisableThreadLibraryCalls@4 1000c0fc     kernel32:KERNEL32.dll
+ 0002:00000100       \177KERNEL32_NULL_THUNK_DATA 1000c100     kernel32:KERNEL32.dll
+ 0002:00000104       __imp___onexit             1000c104     MSVCRTD:MSVCRTD.dll
+ 0002:00000108       __imp____dllonexit         1000c108     MSVCRTD:MSVCRTD.dll
+ 0002:0000010c       __imp___adjust_fdiv        1000c10c     MSVCRTD:MSVCRTD.dll
+ 0002:00000110       __imp___malloc_dbg         1000c110     MSVCRTD:MSVCRTD.dll
+ 0002:00000114       __imp___initterm           1000c114     MSVCRTD:MSVCRTD.dll
+ 0002:00000118       __imp___free_dbg           1000c118     MSVCRTD:MSVCRTD.dll
+ 0002:0000011c       __imp___ftol               1000c11c     MSVCRTD:MSVCRTD.dll
+ 0002:00000120       __imp__atoi                1000c120     MSVCRTD:MSVCRTD.dll
+ 0002:00000124       __imp___purecall           1000c124     MSVCRTD:MSVCRTD.dll
+ 0002:00000128       __imp___assert             1000c128     MSVCRTD:MSVCRTD.dll
+ 0002:0000012c       __imp_??2@YAPAXI@Z         1000c12c     MSVCRTD:MSVCRTD.dll
+ 0002:00000130       __imp__strlen              1000c130     MSVCRTD:MSVCRTD.dll
+ 0002:00000134       __imp_??3@YAXPAX@Z         1000c134     MSVCRTD:MSVCRTD.dll
+ 0002:00000138       __imp__wcscmp              1000c138     MSVCRTD:MSVCRTD.dll
+ 0002:0000013c       __imp__memset              1000c13c     MSVCRTD:MSVCRTD.dll
+ 0002:00000140       __imp___chkesp             1000c140     MSVCRTD:MSVCRTD.dll
+ 0002:00000144       __imp__malloc              1000c144     MSVCRTD:MSVCRTD.dll
+ 0002:00000148       __imp___CrtDbgReport       1000c148     MSVCRTD:MSVCRTD.dll
+ 0002:0000014c       __imp__memcpy              1000c14c     MSVCRTD:MSVCRTD.dll
+ 0002:00000150       __imp____CxxFrameHandler   1000c150     MSVCRTD:MSVCRTD.dll
+ 0002:00000154       __imp__free                1000c154     MSVCRTD:MSVCRTD.dll
+ 0002:00000158       __imp__realloc             1000c158     MSVCRTD:MSVCRTD.dll
+ 0002:0000015c       \177MSVCRTD_NULL_THUNK_DATA 1000c15c     MSVCRTD:MSVCRTD.dll
+ 0002:00000160       __imp__GetClientRect@8     1000c160     user32:USER32.dll
+ 0002:00000164       __imp__ClientToScreen@8    1000c164     user32:USER32.dll
+ 0002:00000168       \177USER32_NULL_THUNK_DATA 1000c168     user32:USER32.dll
+ 0002:0000016c       __imp__GdipGetImageEncoders@12 1000c16c     GdiPlus:gdiplus.dll
+ 0002:00000170       __imp__GdipGetImageEncodersSize@8 1000c170     GdiPlus:gdiplus.dll
+ 0002:00000174       __imp__GdiplusStartup@12   1000c174     GdiPlus:gdiplus.dll
+ 0002:00000178       __imp__GdiplusShutdown@4   1000c178     GdiPlus:gdiplus.dll
+ 0002:0000017c       __imp__GdipFree@4          1000c17c     GdiPlus:gdiplus.dll
+ 0002:00000180       __imp__GdipAlloc@4         1000c180     GdiPlus:gdiplus.dll
+ 0002:00000184       __imp__GdipLoadImageFromStream@8 1000c184     GdiPlus:gdiplus.dll
+ 0002:00000188       __imp__GdipLoadImageFromStreamICM@8 1000c188     GdiPlus:gdiplus.dll
+ 0002:0000018c       __imp__GdipDisposeImage@4  1000c18c     GdiPlus:gdiplus.dll
+ 0002:00000190       __imp__GdipCloneImage@8    1000c190     GdiPlus:gdiplus.dll
+ 0002:00000194       __imp__GdipSaveImageToFile@16 1000c194     GdiPlus:gdiplus.dll
+ 0002:00000198       \177gdiplus_NULL_THUNK_DATA 1000c198     GdiPlus:gdiplus.dll
+ 0002:0000019c       __imp__CreateStreamOnHGlobal@12 1000c19c     ole32:ole32.dll
+ 0002:000001a0       \177ole32_NULL_THUNK_DATA  1000c1a0     ole32:ole32.dll
+ 0002:000001cc       ??_7Image@Gdiplus@@6B@     1000c1cc     RepresentUtility.obj
+ 0002:000001d4       ??_7KRepresentShell2@@6B@  1000c1d4     KRepresentShell2.obj
+ 0002:00000258       ??_7iRepresentShell@@6B@   1000c258     KRepresentShell2.obj
+ 0002:000002dc       ??_7KFont2@@6B@            1000c2dc     KFont2.obj
+ 0002:00000300       ??_7iFont@@6B@             1000c300     KFont2.obj
+ 0002:00000324       __real@4@3fff8000000000000000 1000c324     TextProcess.obj
+ 0002:00000328       __real@8@3ffefff972474538f000 1000c328     TextProcess.obj
+ 0002:00000330       __real@4@40008000000000000000 1000c330     TextProcess.obj
+ 0002:00000338       __real@8@3fffc000000000000000 1000c338     TextProcess.obj
+ 0002:00000340       _CodecIImageBytes          1000c340     GdiPlus:imagingguds.obj
+ 0002:00000350       _EncoderSaveFlag           1000c350     GdiPlus:imagingguds.obj
+ 0002:00000360       _EncoderChrominanceTable   1000c360     GdiPlus:imagingguds.obj
+ 0002:00000370       _EncoderLuminanceTable     1000c370     GdiPlus:imagingguds.obj
+ 0002:00000380       _EncoderTransformation     1000c380     GdiPlus:imagingguds.obj
+ 0002:00000390       _EncoderQuality            1000c390     GdiPlus:imagingguds.obj
+ 0002:000003a0       _EncoderRenderMethod       1000c3a0     GdiPlus:imagingguds.obj
+ 0002:000003b0       _EncoderVersion            1000c3b0     GdiPlus:imagingguds.obj
+ 0002:000003c0       _EncoderScanMethod         1000c3c0     GdiPlus:imagingguds.obj
+ 0002:000003d0       _EncoderColorDepth         1000c3d0     GdiPlus:imagingguds.obj
+ 0002:000003e0       _EncoderCompression        1000c3e0     GdiPlus:imagingguds.obj
+ 0002:000003f0       _FormatIDJpegAppHeaders    1000c3f0     GdiPlus:imagingguds.obj
+ 0002:00000400       _FormatIDImageInformation  1000c400     GdiPlus:imagingguds.obj
+ 0002:00000410       _FrameDimensionPage        1000c410     GdiPlus:imagingguds.obj
+ 0002:00000420       _FrameDimensionResolution  1000c420     GdiPlus:imagingguds.obj
+ 0002:00000430       _FrameDimensionTime        1000c430     GdiPlus:imagingguds.obj
+ 0002:00000440       _ImageFormatIcon           1000c440     GdiPlus:imagingguds.obj
+ 0002:00000450       _ImageFormatEXIF           1000c450     GdiPlus:imagingguds.obj
+ 0002:00000460       _ImageFormatTIFF           1000c460     GdiPlus:imagingguds.obj
+ 0002:00000470       _ImageFormatGIF            1000c470     GdiPlus:imagingguds.obj
+ 0002:00000480       _ImageFormatPNG            1000c480     GdiPlus:imagingguds.obj
+ 0002:00000490       _ImageFormatJPEG           1000c490     GdiPlus:imagingguds.obj
+ 0002:000004a0       _ImageFormatWMF            1000c4a0     GdiPlus:imagingguds.obj
+ 0002:000004b0       _ImageFormatEMF            1000c4b0     GdiPlus:imagingguds.obj
+ 0002:000004c0       _ImageFormatBMP            1000c4c0     GdiPlus:imagingguds.obj
+ 0002:000004d0       _ImageFormatMemoryBMP      1000c4d0     GdiPlus:imagingguds.obj
+ 0002:000004e0       _ImageFormatUndefined      1000c4e0     GdiPlus:imagingguds.obj
+ 0002:000004f0       ??_C@_08JKC@crtdll?4c?$AA@ 1000c4f0     MSVCRTD:crtdll.obj
+ 0002:000007c8       __IMPORT_DESCRIPTOR_KERNEL32 1000c7c8     kernel32:KERNEL32.dll
+ 0002:000007dc       __IMPORT_DESCRIPTOR_USER32 1000c7dc     user32:USER32.dll
+ 0002:000007f0       __IMPORT_DESCRIPTOR_ole32  1000c7f0     ole32:ole32.dll
+ 0002:00000804       __IMPORT_DESCRIPTOR_gdiplus 1000c804     GdiPlus:gdiplus.dll
+ 0002:00000818       __IMPORT_DESCRIPTOR_Engine 1000c818     engine:Engine.dll
+ 0002:0000082c       __IMPORT_DESCRIPTOR_MSVCRTD 1000c82c     MSVCRTD:MSVCRTD.dll
+ 0002:00000840       __NULL_IMPORT_DESCRIPTOR   1000c840     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    1000e000     MSVCRTD:cinitexe.obj
+ 0003:00000004       ___xc_z                    1000e004     MSVCRTD:cinitexe.obj
+ 0003:00000008       ___xi_a                    1000e008     MSVCRTD:cinitexe.obj
+ 0003:0000000c       ___xi_z                    1000e00c     MSVCRTD:cinitexe.obj
+ 0003:00000444       ?g_pIInlinePicSinkRP@@3PAUIInlinePicEngineSink@@A 1000e444     KRepresentShell2.obj
+ 0003:0000044c       __adjust_fdiv              1000e44c     <common>
+ 0003:00000450       ___onexitend               1000e450     <common>
+ 0003:00000454       ___onexitbegin             1000e454     <common>
+ 0003:00000458       __pRawDllMain              1000e458     <common>
+
+ entry point at        0001:00009e70
+
+ Static symbols
+
+ 0001:00008f95       ?RIO_ClipCopyRect@@YAHHHHHHHPAUKRClipperInfo@@@Z 10009f95 f   ImageOperation.obj

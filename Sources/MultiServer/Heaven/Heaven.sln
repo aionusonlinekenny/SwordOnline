@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heaven", "Heaven.vcproj", "{67C1AE7A-E56E-46D4-8B2C-16B689F09C9F}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = Heaven.vcproj
+		SccProjectName0 = \u0022$/SwordOnline/Sources/MultiServer/Heaven\u0022,\u0020VTNAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C1AE7A-E56E-46D4-8B2C-16B689F09C9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67C1AE7A-E56E-46D4-8B2C-16B689F09C9F}.Debug|Win32.Build.0 = Debug|Win32
+		{67C1AE7A-E56E-46D4-8B2C-16B689F09C9F}.Release|Win32.ActiveCfg = Release|Win32
+		{67C1AE7A-E56E-46D4-8B2C-16B689F09C9F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

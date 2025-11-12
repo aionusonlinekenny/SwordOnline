@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FilterText - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPC2D8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FILTERTEXT_EXPORTS" /Fp"Debug/FilterText.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\TinhDuyen\SwordOnline\Sources\FilterText\FilterText.cpp"
+"D:\TinhDuyen\SwordOnline\Sources\FilterText\Regexp.cpp"
+]
+Creating command line "cl.exe @C:\Users\trantam\AppData\Local\Temp\RSPC2D8.tmp" 
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPC2D9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FILTERTEXT_EXPORTS" /Fp"Debug/FilterText.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\TinhDuyen\SwordOnline\Sources\FilterText\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\trantam\AppData\Local\Temp\RSPC2D9.tmp" 
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPC2DA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/FilterText.pdb" /map:"Debug/FilterText.map" /debug /machine:I386 /out:"Debug/FilterText.dll" /implib:"Debug/FilterText.lib" /pdbtype:sept 
+.\Debug\FilterText.obj
+.\Debug\Regexp.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\Users\trantam\AppData\Local\Temp\RSPC2DA.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+FilterText.cpp
+Regexp.cpp
+Generating Code...
+Linking...
+   Creating library Debug/FilterText.lib and object Debug/FilterText.exp
+Creating temporary file "C:\Users\trantam\AppData\Local\Temp\RSPC461.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\
+copy debug\FilterText.dll ..\..\..\bin\client\FilterText.dll
+copy debug\FilterText.pdb ..\..\..\bin\client\FilterText.pdb
+md ..\..\..\bin\client\debug\
+copy debug\FilterText.dll ..\..\..\bin\client\debug\FilterText.dll
+copy debug\FilterText.pdb ..\..\..\bin\client\debug\FilterText.pdb
+md ..\..\..\bin\server\
+copy debug\FilterText.dll ..\..\..\bin\server\FilterText.dll
+copy debug\FilterText.pdb ..\..\..\bin\server\FilterText.pdb
+md ..\..\..\bin\server\debug\
+copy debug\FilterText.dll ..\..\..\bin\server\debug\FilterText.dll
+copy debug\FilterText.pdb ..\..\..\bin\server\debug\FilterText.pdb
+md ..\..\..\bin\multiserver\
+copy debug\FilterText.dll ..\..\..\bin\multiserver\FilterText.dll
+copy debug\FilterText.pdb ..\..\..\bin\multiserver\FilterText.pdb
+md ..\..\..\bin\multiserver\debug\
+copy debug\FilterText.dll ..\..\..\bin\multiserver\debug\FilterText.dll
+copy debug\FilterText.pdb ..\..\..\bin\multiserver\debug\FilterText.pdb
+]
+Creating command line "C:\Users\trantam\AppData\Local\Temp\RSPC461.bat"
+
+A subdirectory or file ..\..\..\bin\client\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\multiserver\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+FilterText.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

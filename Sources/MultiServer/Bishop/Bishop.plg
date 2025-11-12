@@ -1,0 +1,374 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Bishop - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Bishop.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Core - Win32 Server Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3B22.tmp" with contents
+[
+/nologo /MT /W2 /GX /O2 /I "..\engine\src" /I "..\engine\include" /I "..\Network" /I "..\..\Headers" /D "NDEBUG" /D "_SERVER" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /FR"ServerRelease/" /Fp"ServerRelease/Core.pch" /Yu"KCore.h" /Fo"ServerRelease/" /Fd"ServerRelease/" /FD /c 
+"D:\TINHDUYEN\SwordOnline\SwordOnline\Sources\Core\Src\KSkills.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3B22.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3B23.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lualibdll.lib Ws2_32.lib Winmm.lib Shlwapi.lib /nologo /dll /incremental:no /pdb:"ServerRelease/CoreServer.pdb" /map:"ServerRelease/CoreServer.map" /debug /machine:I386 /out:"ServerRelease\CoreServer.dll" /implib:"ServerRelease/CoreServer.lib" 
+.\ServerRelease\KPartnerSkill.obj
+.\ServerRelease\KPlayerPartner.obj
+.\ServerRelease\KThiefSkill.obj
+.\ServerRelease\KMissle.obj
+.\ServerRelease\KMissleRes.obj
+.\ServerRelease\KMissleSet.obj
+.\ServerRelease\KSkillList.obj
+.\ServerRelease\KSkillManager.obj
+.\ServerRelease\KSkills.obj
+.\ServerRelease\KSkillSpecial.obj
+.\ServerRelease\Skill.obj
+.\ServerRelease\KNpc.obj
+.\ServerRelease\KNpcAI.obj
+.\ServerRelease\KNpcAttribModify.obj
+.\ServerRelease\KNpcDeathCalcExp.obj
+.\ServerRelease\KNpcFindPath.obj
+.\ServerRelease\KNpcGold.obj
+.\ServerRelease\KNpcRes.obj
+.\ServerRelease\KNpcResList.obj
+.\ServerRelease\KNpcResNode.obj
+.\ServerRelease\KNpcSet.obj
+.\ServerRelease\KNpcTemplate.obj
+.\ServerRelease\KFaction.obj
+.\ServerRelease\KPlayer.obj
+.\ServerRelease\KPlayerChat.obj
+.\ServerRelease\KPlayerDBFuns.obj
+.\ServerRelease\KPlayerFaction.obj
+.\ServerRelease\KPlayerMenuState.obj
+.\ServerRelease\KPlayerPK.obj
+.\ServerRelease\KPlayerSet.obj
+.\ServerRelease\KPlayerTask.obj
+.\ServerRelease\KPlayerTeam.obj
+.\ServerRelease\KPlayerTong.obj
+.\ServerRelease\KPlayerTrade.obj
+.\ServerRelease\KSprControl.obj
+.\ServerRelease\KBasPropTbl.obj
+.\ServerRelease\KBuySell.obj
+.\ServerRelease\KInventory.obj
+.\ServerRelease\KItem.obj
+.\ServerRelease\KItemChangeRes.obj
+.\ServerRelease\KItemGenerator.obj
+.\ServerRelease\KItemList.obj
+.\ServerRelease\KItemSet.obj
+.\ServerRelease\KObj.obj
+.\ServerRelease\KObjSet.obj
+.\ServerRelease\KViewItem.obj
+.\ServerRelease\KCore.obj
+.\ServerRelease\KSubWorld.obj
+.\ServerRelease\KSubWorldSet.obj
+.\ServerRelease\KWeatherMgr.obj
+.\ServerRelease\KRegion.obj
+.\ServerRelease\KWorldMsg.obj
+.\ServerRelease\KMath.obj
+.\ServerRelease\KGMProcess.obj
+.\ServerRelease\KNewProtocolProcess.obj
+.\ServerRelease\KProtocol.obj
+.\ServerRelease\KProtocolProcess.obj
+.\ServerRelease\ScriptFuns.obj
+.\ServerRelease\KScriptValueSet.obj
+.\ServerRelease\KSortScript.obj
+.\ServerRelease\CoreServerShell.obj
+.\ServerRelease\KWeather.obj
+.\ServerRelease\KMagicDesc.obj
+.\ServerRelease\KGMCommand.obj
+.\ServerRelease\KMission.obj
+.\ServerRelease\KTaskFuns.obj
+.\ServerRelease\KOption.obj
+.\ServerRelease\KMapMusic.obj
+.\ServerRelease\KLadder.obj
+.\ServerRelease\stdafx.obj
+..\..\Lib\release\engine.lib
+..\..\Lib\release\common.lib
+.\Src\USBKey\EP1KDL20.LIB
+.\Src\USBKey\EpsForJoLib.lib
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3B23.tmp"
+<h3>Output Window</h3>
+Compiling...
+KSkills.cpp
+Linking...
+   Creating library ServerRelease/CoreServer.lib and object ServerRelease/CoreServer.exp
+ServerRelease\CoreServer.dll : warning LNK4084: total image size 855875584 exceeds max (268435456); image may not run
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3C4D.bat" with contents
+[
+@echo off
+md ..\..\lib\release\
+copy ServerRelease\CoreServer.lib ..\..\lib\release\CoreServer.lib
+md ..\..\..\bin\server\
+copy ServerRelease\CoreServer.map ..\..\..\bin\server\CoreServer.map
+copy ServerRelease\CoreServer.pdb ..\..\..\bin\server\CoreServer.pdb
+copy ServerRelease\CoreServer.dll ..\..\..\bin\server\CoreServer.dll
+md ..\..\..\bin\server\release\
+copy ServerRelease\CoreServer.map ..\..\..\bin\server\release\CoreServer.map
+copy ServerRelease\CoreServer.pdb ..\..\..\bin\server\release\CoreServer.pdb
+copy ServerRelease\CoreServer.dll ..\..\..\bin\server\release\CoreServer.dll
+]
+Creating command line "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3C4D.bat"
+
+A subdirectory or file ..\..\lib\release\ already exists.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+The process cannot access the file because it is being used by another process.
+        0 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+CoreServer.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: Core - Win32 Client Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3CEA.tmp" with contents
+[
+/nologo /MD /W2 /GX /Zi /O2 /I "..\engine\src" /I "..\engine\include" /I "..\Network" /I "..\..\Headers" /I "src" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /FR"ClientRelease/" /Fp"ClientRelease/Core.pch" /Yu"KCore.h" /Fo"ClientRelease/" /Fd"ClientRelease/" /FD /c 
+"D:\TINHDUYEN\SwordOnline\SwordOnline\Sources\Core\Src\KSkills.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3CEA.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3CEB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lualibdll.lib Shlwapi.lib Winmm.lib /nologo /dll /incremental:no /pdb:"ClientRelease/CoreClient.pdb" /map:"ClientRelease/CoreClient.map" /debug /machine:I386 /out:"ClientRelease\CoreClient.dll" /implib:"ClientRelease/CoreClient.lib" /libpath:"../../lib/" 
+.\ClientRelease\KPartnerSkill.obj
+.\ClientRelease\KPlayerPartner.obj
+.\ClientRelease\KThiefSkill.obj
+.\ClientRelease\KMissle.obj
+.\ClientRelease\KMissleRes.obj
+.\ClientRelease\KMissleSet.obj
+.\ClientRelease\KSkillList.obj
+.\ClientRelease\KSkillManager.obj
+.\ClientRelease\KSkills.obj
+.\ClientRelease\KSkillSpecial.obj
+.\ClientRelease\Skill.obj
+.\ClientRelease\KNpc.obj
+.\ClientRelease\KNpcAI.obj
+.\ClientRelease\KNpcAttribModify.obj
+.\ClientRelease\KNpcDeathCalcExp.obj
+.\ClientRelease\KNpcFindPath.obj
+.\ClientRelease\KNpcGold.obj
+.\ClientRelease\KNpcRes.obj
+.\ClientRelease\KNpcResList.obj
+.\ClientRelease\KNpcResNode.obj
+.\ClientRelease\KNpcSet.obj
+.\ClientRelease\KNpcTemplate.obj
+.\ClientRelease\KFaction.obj
+.\ClientRelease\KPlayer.obj
+.\ClientRelease\KPlayerChat.obj
+.\ClientRelease\KPlayerDBFuns.obj
+.\ClientRelease\KPlayerFaction.obj
+.\ClientRelease\KPlayerMenuState.obj
+.\ClientRelease\KPlayerPK.obj
+.\ClientRelease\KPlayerSet.obj
+.\ClientRelease\KPlayerTask.obj
+.\ClientRelease\KPlayerTeam.obj
+.\ClientRelease\KPlayerTong.obj
+.\ClientRelease\KPlayerTrade.obj
+.\ClientRelease\KSprControl.obj
+.\ClientRelease\KBasPropTbl.obj
+.\ClientRelease\KBuySell.obj
+.\ClientRelease\KInventory.obj
+.\ClientRelease\KItem.obj
+.\ClientRelease\KItemChangeRes.obj
+.\ClientRelease\KItemGenerator.obj
+.\ClientRelease\KItemList.obj
+.\ClientRelease\KItemSet.obj
+.\ClientRelease\KObj.obj
+.\ClientRelease\KObjSet.obj
+.\ClientRelease\KViewItem.obj
+.\ClientRelease\KCore.obj
+.\ClientRelease\KSubWorld.obj
+.\ClientRelease\KSubWorldSet.obj
+.\ClientRelease\KWeatherMgr.obj
+.\ClientRelease\KRegion.obj
+.\ClientRelease\KWorldMsg.obj
+.\ClientRelease\KMath.obj
+.\ClientRelease\KProtocol.obj
+.\ClientRelease\KProtocolProcess.obj
+.\ClientRelease\ScriptFuns.obj
+.\ClientRelease\KScriptValueSet.obj
+.\ClientRelease\KSortScript.obj
+.\ClientRelease\CoreShell.obj
+.\ClientRelease\KIpotBranch.obj
+.\ClientRelease\KIpotLeaf.obj
+.\ClientRelease\KIpoTree.obj
+.\ClientRelease\Kjxpathfinder.obj
+.\ClientRelease\KScenePlaceC.obj
+.\ClientRelease\KScenePlaceRegionC.obj
+.\ClientRelease\KWeather.obj
+.\ClientRelease\SceneMath.obj
+.\ClientRelease\ScenePlaceMapC.obj
+.\ClientRelease\CoreDrawGameObj.obj
+.\ClientRelease\ImgRef.obj
+.\ClientRelease\KMagicDesc.obj
+.\ClientRelease\KGMCommand.obj
+.\ClientRelease\KTaskFuns.obj
+.\ClientRelease\KOption.obj
+.\ClientRelease\KMapMusic.obj
+.\ClientRelease\KLadder.obj
+.\ClientRelease\stdafx.obj
+..\..\Lib\release\engine.lib
+..\..\Lib\release\common.lib
+.\Src\USBKey\EP1KDL20.LIB
+.\Src\USBKey\EpsForJoLib.lib
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3CEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+KSkills.cpp
+Linking...
+   Creating library ClientRelease/CoreClient.lib and object ClientRelease/CoreClient.exp
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3EB1.bat" with contents
+[
+@echo off
+md ..\..\lib\release\
+copy ClientRelease\CoreClient.lib ..\..\lib\release\CoreClient.lib
+md ..\..\..\bin\client\
+copy ClientRelease\CoreClient.pdb ..\..\..\bin\client\CoreClient.pdb
+copy ClientRelease\CoreClient.map ..\..\..\bin\client\CoreClient.map
+copy ClientRelease\CoreClient.dll ..\..\..\bin\client\CoreClient.dll
+md ..\..\..\bin\client\release\
+copy ClientRelease\CoreClient.pdb ..\..\..\bin\client\release\CoreClient.pdb
+copy ClientRelease\CoreClient.map ..\..\..\bin\client\release\CoreClient.map
+copy ClientRelease\CoreClient.dll ..\..\..\bin\client\release\CoreClient.dll
+]
+Creating command line "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3EB1.bat"
+
+A subdirectory or file ..\..\lib\release\ already exists.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\client\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\client\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+CoreClient.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GameServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+GameServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Goddess - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Goddess.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Heaven - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Heaven.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: LuaLibDll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+LuaLibDll.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Rainbow - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Rainbow.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Represent2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Represent2.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Represent3 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Represent3.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Client - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Game.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Relay - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+S3Relay.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3RelayServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+S3RelayServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Sword3PaySys - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Sword3PaySys.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
